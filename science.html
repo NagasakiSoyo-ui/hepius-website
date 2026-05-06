@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Science &amp; Technology — Hepius Therapeutics</title>
+  <meta name="description" content="Hepius's reverse translational platform and proprietary TCR discovery technologies.">
+  <meta property="og:title" content="Science &amp; Technology — Hepius Therapeutics">
+  <meta property="og:description" content="Hepius's reverse translational platform and proprietary TCR discovery technologies for next-generation precision immuno-oncology.">
+  <meta property="og:image" content="assets/og-image.png">
+  <meta property="og:url" content="https://hepiustherapeutics.com/science.html">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://hepiustherapeutics.com/science.html">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'Noto Sans SC', 'system-ui', '-apple-system', 'PingFang SC', 'Microsoft YaHei', 'sans-serif'],
+            mono: ['JetBrains Mono', 'SF Mono', 'Consolas', 'monospace'],
+          },
+          colors: {
+            primary: { DEFAULT: '#2D2D2D', light: '#717171' },
+            accent: { DEFAULT: '#FF7505', hover: '#E06800' },
+            surface: '#FFF7F0',
+          },
+        },
+      },
+    };
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+</head>
+<body class="bg-white text-primary antialiased">
+
+  <header class="sticky top-0 z-50 bg-white border-b border-gray-200">
+    <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Main navigation">
+      <div class="flex items-center justify-between h-16 lg:h-20">
+        <a href="index.html" class="flex-shrink-0">
+          <img src="assets/logo.png" alt="Hepius Therapeutics" class="h-8 lg:h-9 w-auto">
+        </a>
+        <div class="hidden lg:flex lg:items-center lg:gap-1">
+          <a href="index.html" class="px-3 py-2 text-sm font-medium text-primary-light hover:text-primary rounded-md transition-colors" data-i18n="nav.home">首页</a>
+          <a href="about.html" class="px-3 py-2 text-sm font-medium text-primary-light hover:text-primary rounded-md transition-colors" data-i18n="nav.about">关于我们</a>
+          <a href="science.html" class="px-3 py-2 text-sm font-medium text-accent rounded-md" data-i18n="nav.science">科学与技术</a>
+          <a href="pipeline.html" class="px-3 py-2 text-sm font-medium text-primary-light hover:text-primary rounded-md transition-colors" data-i18n="nav.pipeline">研发管线</a>
+          <a href="publications.html" class="px-3 py-2 text-sm font-medium text-primary-light hover:text-primary rounded-md transition-colors" data-i18n="nav.publications">出版物</a>
+          <a href="contact.html" class="px-3 py-2 text-sm font-medium text-primary-light hover:text-primary rounded-md transition-colors" data-i18n="nav.contact">联系我们</a>
+          <button id="lang-toggle" class="ml-4 px-3 py-1.5 text-xs font-semibold border border-gray-300 rounded-full hover:border-primary hover:text-primary transition-colors" data-i18n="nav.langToggle" aria-label="Switch language">EN</button>
+        </div>
+        <button id="mobile-menu-btn" class="lg:hidden p-2 rounded-md text-primary-light hover:text-primary" aria-expanded="false" aria-label="Open menu">
+          <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+            <path d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"/>
+          </svg>
+        </button>
+      </div>
+      <div id="mobile-menu" class="hidden lg:hidden border-t border-gray-100 bg-white">
+        <div class="px-2 pt-2 pb-4 space-y-1">
+          <a href="index.html" class="block px-3 py-2.5 text-base font-medium text-primary-light hover:text-primary rounded-md" data-i18n="nav.home">首页</a>
+          <a href="about.html" class="block px-3 py-2.5 text-base font-medium text-primary-light hover:text-primary rounded-md" data-i18n="nav.about">关于我们</a>
+          <a href="science.html" class="block px-3 py-2.5 text-base font-medium text-accent rounded-md" data-i18n="nav.science">科学与技术</a>
+          <a href="pipeline.html" class="block px-3 py-2.5 text-base font-medium text-primary-light hover:text-primary rounded-md" data-i18n="nav.pipeline">研发管线</a>
+          <a href="publications.html" class="block px-3 py-2.5 text-base font-medium text-primary-light hover:text-primary rounded-md" data-i18n="nav.publications">出版物</a>
+          <a href="contact.html" class="block px-3 py-2.5 text-base font-medium text-primary-light hover:text-primary rounded-md" data-i18n="nav.contact">联系我们</a>
+          <button id="lang-toggle-mobile" class="mt-2 w-full text-center px-3 py-2 text-sm font-semibold border border-gray-300 rounded-full hover:border-primary hover:text-primary transition-colors" data-i18n="nav.langToggle">EN</button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-8 sm:pt-20 sm:pb-10 lg:pt-24 lg:pb-12">
+      <div class="section-divider mb-6"></div>
+      <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-primary" data-i18n="science.pageTitle">科学与技术</h1>
+      <p class="mt-4 text-lg text-primary-light max-w-3xl" data-i18n="science.pageSubtitle">以病人为中心的反向转化平台，由专有的 TCR 发现与工程技术驱动。</p>
+    </section>
+
+    <section class="bg-surface">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 lg:py-24">
+        <div class="section-divider mb-6"></div>
+        <h2 class="text-2xl sm:text-3xl font-bold text-primary" data-i18n="science.platform.title">反向转化医学平台</h2>
+        <p class="mt-4 text-base text-primary-light max-w-3xl leading-relaxed" data-i18n="science.platform.desc">
+          赫匹欧斯反向转化平台整合临床数据分析与病人样本检测。两大支柱协同工作，识别治疗靶点并针对最可能响应的人群筛选候选药物。
+        </p>
+        <div class="mt-12 grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <div class="bg-white rounded-lg p-8">
+            <div class="value-icon-circle"><span>01</span></div>
+            <h3 class="mt-5 text-lg font-semibold text-primary" data-i18n="science.platform.pillar1.title">临床和 Biomarker 生物信息指导的靶点选择</h3>
+            <ul class="mt-4 space-y-2.5 text-sm text-primary-light leading-relaxed">
+              <li class="flex gap-2">
+                <span class="text-accent flex-shrink-0">&mdash;</span>
+                <span data-i18n="science.platform.pillar1.bullets.0">与国内顶级临床机构合作，识别并引进新靶点</span>
+              </li>
+              <li class="flex gap-2">
+                <span class="text-accent flex-shrink-0">&mdash;</span>
+                <span data-i18n="science.platform.pillar1.bullets.1">分析接受过免疫治疗的患者数据，识别 PD-1i 耐药/难治机制</span>
+              </li>
+              <li class="flex gap-2">
+                <span class="text-accent flex-shrink-0">&mdash;</span>
+                <span data-i18n="science.platform.pillar1.bullets.2">Biomarker 驱动的肿瘤适应症选择和靶向人群挑选</span>
+              </li>
+            </ul>
+          </div>
+          <div class="bg-white rounded-lg p-8">
+            <div class="value-icon-circle"><span>02</span></div>
+            <h3 class="mt-5 text-lg font-semibold text-primary" data-i18n="science.platform.pillar2.title">肿瘤病人细胞组织库为基础的药物筛选</h3>
+            <ul class="mt-4 space-y-2.5 text-sm text-primary-light leading-relaxed">
+              <li class="flex gap-2">
+                <span class="text-accent flex-shrink-0">&mdash;</span>
+                <span data-i18n="science.platform.pillar2.bullets.0">病人来源 PBMC、DTC 及 TIL 库</span>
+              </li>
+              <li class="flex gap-2">
+                <span class="text-accent flex-shrink-0">&mdash;</span>
+                <span data-i18n="science.platform.pillar2.bullets.1">内部多色流式免疫分析</span>
+              </li>
+              <li class="flex gap-2">
+                <span class="text-accent flex-shrink-0">&mdash;</span>
+                <span data-i18n="science.platform.pillar2.bullets.2">多平台交叉验证</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 lg:py-24">
+      <div class="section-divider mb-6"></div>
+      <h2 class="text-2xl sm:text-3xl font-bold text-primary" data-i18n="science.equipment.title">核心设备</h2>
+      <p class="mt-3 text-base text-primary-light max-w-2xl" data-i18n="science.equipment.subtitle">我们的药物发现与表征工作流由行业标准仪器支持。</p>
+      <div class="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="bg-surface rounded-lg p-6">
+          <svg class="h-7 w-7 text-accent mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 12h-2.48a2 2 0 0 0-1.93 1.46l-2.35 8.36a.25.25 0 0 1-.48 0L9.24 2.18a.25.25 0 0 0-.48 0l-2.35 8.36A2 2 0 0 1 4.49 12H2"/>
+          </svg>
+          <p class="text-sm font-semibold text-primary" data-i18n="science.equipment.items.0.name">BD LSR Fortessa 流式细胞仪</p>
+          <p class="mt-1 text-xs text-primary-light" data-i18n="science.equipment.items.0.nameZh">BD LSR Fortessa Flow Cytometer</p>
+          <p class="mt-1.5 text-xs text-primary-light" data-i18n="science.equipment.items.0.desc">3 激光 14 色流式分析</p>
+        </div>
+        <div class="bg-surface rounded-lg p-6">
+          <svg class="h-7 w-7 text-accent mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="4"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3m-8.73-6.27-2.12-2.12m10.7 10.7-2.12-2.12M6.27 6.27l-2.12 2.12m10.7 10.7 2.12-2.12"/>
+          </svg>
+          <p class="text-sm font-semibold text-primary" data-i18n="science.equipment.items.1.name">Perkin Elmer 多重免疫组化 (Phenoptics)</p>
+          <p class="mt-1 text-xs text-primary-light" data-i18n="science.equipment.items.1.nameZh">Perkin Elmer Multiplex IHC (Phenoptics)</p>
+          <p class="mt-1.5 text-xs text-primary-light" data-i18n="science.equipment.items.1.desc">定量病理平台</p>
+        </div>
+        <div class="bg-surface rounded-lg p-6">
+          <svg class="h-7 w-7 text-accent mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="3"/><path d="M12 2v4m0 12v4m-4-10H4m16 0h-4"/>
+          </svg>
+          <p class="text-sm font-semibold text-primary" data-i18n="science.equipment.items.2.name">尼康 A1R 共聚焦 + STORM 超分辨显微镜</p>
+          <p class="mt-1 text-xs text-primary-light" data-i18n="science.equipment.items.2.nameZh">Nikon A1R Confocal + STORM</p>
+          <p class="mt-1.5 text-xs text-primary-light" data-i18n="science.equipment.items.2.desc">超分辨显微系统</p>
+        </div>
+        <div class="bg-surface rounded-lg p-6">
+          <svg class="h-7 w-7 text-accent mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M2 12h3l3-9 4 18 3-9h3"/>
+          </svg>
+          <p class="text-sm font-semibold text-primary" data-i18n="science.equipment.items.3.name">Lumina XRMS 小动物活体成像仪</p>
+          <p class="mt-1 text-xs text-primary-light" data-i18n="science.equipment.items.3.nameZh">Lumina XRMS In Vivo Imaging</p>
+          <p class="mt-1.5 text-xs text-primary-light" data-i18n="science.equipment.items.3.desc">小动物活体生物发光与荧光成像</p>
+        </div>
+        <div class="bg-surface rounded-lg p-6">
+          <svg class="h-7 w-7 text-accent mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M14 4v16M6 4v16M4 4h4M16 4h4M4 8h4M16 8h4M4 12h4M16 12h4M4 16h4M16 16h4M8 20h8"/>
+          </svg>
+          <p class="text-sm font-semibold text-primary" data-i18n="science.equipment.items.4.name">LightCycler 480II 荧光定量 PCR 仪</p>
+          <p class="mt-1 text-xs text-primary-light" data-i18n="science.equipment.items.4.nameZh">LightCycler 480II qPCR</p>
+          <p class="mt-1.5 text-xs text-primary-light" data-i18n="science.equipment.items.4.desc">实时荧光定量 PCR</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-surface">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 lg:py-24">
+        <div class="section-divider mb-6"></div>
+        <h2 class="text-2xl sm:text-3xl font-bold text-primary" data-i18n="science.tech.title">专有技术</h2>
+        <div class="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div class="bg-white rounded-lg p-8">
+            <div class="value-icon-circle"><span>01</span></div>
+            <h3 class="mt-5 text-lg font-semibold text-primary" data-i18n="science.tech.cards.0.title">4 周 TCR 发现流程</h3>
+            <p class="mt-3 text-sm text-primary-light leading-relaxed" data-i18n="science.tech.cards.0.desc">
+              通过四聚体染色、流式分选和 10X 单细胞测序，4 周内从 PBMC/TIL 鉴定抗原特异性的天然 TCR。
+            </p>
+          </div>
+          <div class="bg-white rounded-lg p-8">
+            <div class="value-icon-circle"><span>02</span></div>
+            <h3 class="mt-5 text-lg font-semibold text-primary" data-i18n="science.tech.cards.1.title">天然 TCR 可溶性表达</h3>
+            <p class="mt-3 text-sm text-primary-light leading-relaxed" data-i18n="science.tech.cards.1.desc">
+              通过恒定区突变与 Fc 融合工程，天然 TCR 表达量可达 93 mg/L，无需亲和力增强。
+            </p>
+          </div>
+          <div class="bg-white rounded-lg p-8">
+            <div class="value-icon-circle"><span>03</span></div>
+            <h3 class="mt-5 text-lg font-semibold text-primary" data-i18n="science.tech.cards.2.title">专利 TCR 亲和力筛选平台</h3>
+            <p class="mt-3 text-sm text-primary-light leading-relaxed" data-i18n="science.tech.cards.2.desc">
+              专有的 THP-1 细胞基筛选平台，实现可溶性天然 TCR 的亲和力表征，解决临床前 TCR 研究的长期难题。
+            </p>
+          </div>
+          <div class="bg-white rounded-lg p-8">
+            <div class="value-icon-circle"><span>04</span></div>
+            <h3 class="mt-5 text-lg font-semibold text-primary" data-i18n="science.tech.cards.3.title">多格式 TCR 治疗分子工程</h3>
+            <p class="mt-3 text-sm text-primary-light leading-relaxed" data-i18n="science.tech.cards.3.desc">
+              灵活的分子格式——单价 scTCR、二价 TCR-Fc、TCR-CD3 双特异性 T 细胞衔接器——同时支持治疗和核素诊断应用。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 lg:py-24">
+      <div class="section-divider mb-6"></div>
+      <h2 class="text-2xl sm:text-3xl font-bold text-primary" data-i18n="science.workflow.title">4 周 TCR 发现流程</h2>
+
+      <div class="mt-12 hidden sm:flex sm:items-start sm:justify-between sm:gap-0">
+        <div class="flex flex-col items-center text-center w-[18%]">
+          <div class="flex items-center justify-center w-10 h-10 rounded-full bg-primary text-white text-sm font-bold">1</div>
+          <h4 class="mt-5 text-sm font-semibold text-primary" data-i18n="science.workflow.steps.0.title">PBMC 抗原肽刺激</h4>
+          <span class="mt-2 font-mono text-xs font-semibold text-accent" data-i18n="science.workflow.steps.0.duration">10 天</span>
+          <p class="mt-1.5 text-xs text-primary-light leading-relaxed" data-i18n="science.workflow.steps.0.desc">抗原肽刺激 PBMC/TIL</p>
+        </div>
+        <div class="flex flex-col items-center text-center w-[18%]">
+          <div class="flex items-center justify-center w-10 h-10 rounded-full bg-primary text-white text-sm font-bold">2</div>
+          <h4 class="mt-5 text-sm font-semibold text-primary" data-i18n="science.workflow.steps.1.title">IFNγ 及四聚体检测</h4>
+          <span class="mt-2 font-mono text-xs font-semibold text-accent" data-i18n="science.workflow.steps.1.duration">5 天</span>
+          <p class="mt-1.5 text-xs text-primary-light leading-relaxed" data-i18n="science.workflow.steps.1.desc">识别抗原特异性 T 细胞群体</p>
+        </div>
+        <div class="flex flex-col items-center text-center w-[18%]">
+          <div class="flex items-center justify-center w-10 h-10 rounded-full bg-primary text-white text-sm font-bold">3</div>
+          <h4 class="mt-5 text-sm font-semibold text-primary" data-i18n="science.workflow.steps.2.title">流式分选与 10X 单细胞测序</h4>
+          <span class="mt-2 font-mono text-xs font-semibold text-accent" data-i18n="science.workflow.steps.2.duration">28 天</span>
+          <p class="mt-1.5 text-xs text-primary-light leading-relaxed" data-i18n="science.workflow.steps.2.desc">单细胞分选与 TCR 测序</p>
+        </div>
+        <div class="flex flex-col items-center text-center w-[18%]">
+          <div class="flex items-center justify-center w-10 h-10 rounded-full bg-primary text-white text-sm font-bold">4</div>
+          <h4 class="mt-5 text-sm font-semibold text-primary" data-i18n="science.workflow.steps.3.title">慢病毒构建</h4>
+          <span class="mt-2 font-mono text-xs font-semibold text-accent" data-i18n="science.workflow.steps.3.duration">24 天</span>
+          <p class="mt-1.5 text-xs text-primary-light leading-relaxed" data-i18n="science.workflow.steps.3.desc">将 TCR 装入慢病毒载体</p>
+        </div>
+        <div class="flex flex-col items-center text-center w-[18%]">
+          <div class="flex items-center justify-center w-10 h-10 rounded-full bg-primary text-white text-sm font-bold">5</div>
+          <h4 class="mt-5 text-sm font-semibold text-primary" data-i18n="science.workflow.steps.4.title">转染验证与流式检测</h4>
+          <span class="mt-2 font-mono text-xs font-semibold text-accent" data-i18n="science.workflow.steps.4.duration">16 天</span>
+          <p class="mt-1.5 text-xs text-primary-light leading-relaxed" data-i18n="science.workflow.steps.4.desc">通过转染确认 TCR 特异性</p>
+        </div>
+      </div>
+
+      <div class="hidden sm:block relative -mt-[calc(5rem+20px)] mx-[9%] h-px bg-accent" aria-hidden="true"></div>
+
+      <div class="mt-12 sm:hidden space-y-0">
+        <div class="flex gap-4 pb-8 relative">
+          <div class="flex flex-col items-center flex-shrink-0">
+            <div class="flex items-center justify-center w-10 h-10 rounded-full bg-primary text-white text-sm font-bold z-10">1</div>
+            <div class="w-px h-full bg-accent absolute top-10"></div>
+          </div>
+          <div class="pb-2">
+            <h4 class="text-sm font-semibold text-primary" data-i18n="science.workflow.steps.0.title">PBMC 抗原肽刺激</h4>
+            <span class="inline-block mt-1 font-mono text-xs font-semibold text-accent" data-i18n="science.workflow.steps.0.duration">10 天</span>
+            <p class="mt-1 text-xs text-primary-light" data-i18n="science.workflow.steps.0.desc">抗原肽刺激 PBMC/TIL</p>
+          </div>
+        </div>
+        <div class="flex gap-4 pb-8 relative">
+          <div class="flex flex-col items-center flex-shrink-0">
+            <div class="flex items-center justify-center w-10 h-10 rounded-full bg-primary text-white text-sm font-bold z-10">2</div>
+            <div class="w-px h-full bg-accent absolute top-10"></div>
+          </div>
+          <div class="pb-2">
+            <h4 class="text-sm font-semibold text-primary" data-i18n="science.workflow.steps.1.title">IFNγ 及四聚体检测</h4>
+            <span class="inline-block mt-1 font-mono text-xs font-semibold text-accent" data-i18n="science.workflow.steps.1.duration">5 天</span>
+            <p class="mt-1 text-xs text-primary-light" data-i18n="science.workflow.steps.1.desc">识别抗原特异性 T 细胞群体</p>
+          </div>
+        </div>
+        <div class="flex gap-4 pb-8 relative">
+          <div class="flex flex-col items-center flex-shrink-0">
+            <div class="flex items-center justify-center w-10 h-10 rounded-full bg-primary text-white text-sm font-bold z-10">3</div>
+            <div class="w-px h-full bg-accent absolute top-10"></div>
+          </div>
+          <div class="pb-2">
+            <h4 class="text-sm font-semibold text-primary" data-i18n="science.workflow.steps.2.title">流式分选与 10X 单细胞测序</h4>
+            <span class="inline-block mt-1 font-mono text-xs font-semibold text-accent" data-i18n="science.workflow.steps.2.duration">28 天</span>
+            <p class="mt-1 text-xs text-primary-light" data-i18n="science.workflow.steps.2.desc">单细胞分选与 TCR 测序</p>
+          </div>
+        </div>
+        <div class="flex gap-4 pb-8 relative">
+          <div class="flex flex-col items-center flex-shrink-0">
+            <div class="flex items-center justify-center w-10 h-10 rounded-full bg-primary text-white text-sm font-bold z-10">4</div>
+            <div class="w-px h-full bg-accent absolute top-10"></div>
+          </div>
+          <div class="pb-2">
+            <h4 class="text-sm font-semibold text-primary" data-i18n="science.workflow.steps.3.title">慢病毒构建</h4>
+            <span class="inline-block mt-1 font-mono text-xs font-semibold text-accent" data-i18n="science.workflow.steps.3.duration">24 天</span>
+            <p class="mt-1 text-xs text-primary-light" data-i18n="science.workflow.steps.3.desc">将 TCR 装入慢病毒载体</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="flex flex-col items-center flex-shrink-0">
+            <div class="flex items-center justify-center w-10 h-10 rounded-full bg-primary text-white text-sm font-bold z-10">5</div>
+          </div>
+          <div>
+            <h4 class="text-sm font-semibold text-primary" data-i18n="science.workflow.steps.4.title">转染验证与流式检测</h4>
+            <span class="inline-block mt-1 font-mono text-xs font-semibold text-accent" data-i18n="science.workflow.steps.4.duration">16 天</span>
+            <p class="mt-1 text-xs text-primary-light" data-i18n="science.workflow.steps.4.desc">通过转染确认 TCR 特异性</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="bg-primary text-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
+      <div class="grid grid-cols-1 lg:grid-cols-[1.5fr_1fr_1.5fr] gap-10 lg:gap-16">
+        <div class="lg:max-w-xs">
+          <a href="index.html">
+            <img src="assets/logo.png" alt="Hepius Therapeutics" class="h-7 w-auto brightness-0 invert">
+          </a>
+          <p class="mt-5 text-sm text-gray-400 leading-relaxed" data-i18n="footer.tagline">以病人为中心的反向转化医学平台，开发差异化的下一代精准肿瘤免疫治疗药物，为耐药患者提供新选择。</p>
+        </div>
+        <div>
+          <h4 class="text-sm font-semibold uppercase tracking-wider text-gray-300" data-i18n="footer.quickLinks">快速链接</h4>
+          <ul class="mt-4 space-y-3">
+            <li><a href="about.html" class="footer-link text-sm text-gray-400" data-i18n="nav.about">关于我们</a></li>
+            <li><a href="science.html" class="footer-link text-sm text-gray-400" data-i18n="nav.science">科学与技术</a></li>
+            <li><a href="pipeline.html" class="footer-link text-sm text-gray-400" data-i18n="nav.pipeline">研发管线</a></li>
+            <li><a href="publications.html" class="footer-link text-sm text-gray-400" data-i18n="nav.publications">出版物</a></li>
+            <li><a href="contact.html" class="footer-link text-sm text-gray-400" data-i18n="nav.contact">联系我们</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-sm font-semibold uppercase tracking-wider text-gray-300" data-i18n="footer.contactHeading">联系方式</h4>
+          <ul class="mt-4 space-y-3">
+            <li>
+              <span class="text-xs text-gray-500">BD</span><br>
+              <a href="mailto:BD@hepiustherapeutics.com" class="footer-link text-sm text-gray-400 break-all">BD@hepiustherapeutics.com</a>
+            </li>
+            <li>
+              <span class="text-xs text-gray-500">Academic</span><br>
+              <a href="mailto:yhuang@hepiustherapeutics.com" class="footer-link text-sm text-gray-400 break-all">yhuang@hepiustherapeutics.com</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="mt-12 pt-8 border-t border-gray-700">
+        <p class="text-xs text-gray-500" data-i18n="footer.copyright">&copy; 2025 Hepius Therapeutics. 保留所有权利。</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/nav.js"></script>
+</body>
+</html>

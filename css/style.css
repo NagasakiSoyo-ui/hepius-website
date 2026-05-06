@@ -1,0 +1,97 @@
+/* Hepius Therapeutics — Custom Styles
+ * Minimal supplements to Tailwind CSS CDN
+ */
+
+/* Smooth scroll for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Body overflow lock for mobile menu */
+body.overflow-hidden {
+  overflow: hidden;
+}
+
+/* Accent link underline animation */
+a.accent-link {
+  background-image: linear-gradient(#FF7505, #FF7505);
+  background-size: 0% 1px;
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.2s ease;
+}
+a.accent-link:hover {
+  background-size: 100% 1px;
+}
+
+/* Pipeline card hover */
+.pipeline-card {
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+.pipeline-card:hover {
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  transform: translateY(-2px);
+}
+
+/* Value card icon circle */
+.value-icon-circle {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFF7F0;
+  color: #FF7505;
+  font-size: 20px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+/* Section separator */
+.section-divider {
+  width: 40px;
+  height: 2px;
+  background-color: #FF7505;
+}
+
+/* Data mono text */
+.data-mono {
+  font-family: 'JetBrains Mono', 'SF Mono', 'Consolas', monospace;
+  color: #FF7505;
+}
+
+/* Avatar placeholder circle */
+.avatar-placeholder {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #2D2D2D;
+  color: #FF7505;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+/* Responsive table wrapper */
+.table-responsive {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Footer link hover */
+.footer-link {
+  transition: color 0.15s ease;
+}
+.footer-link:hover {
+  color: #FF7505;
+}
+
+/* Print styles */
+@media print {
+  nav, footer, .no-print {
+    display: none !important;
+  }
+}

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About — Hepius Therapeutics</title>
+  <meta name="description" content="Hepius Therapeutics — our mission, founder, and team driving next-generation precision immuno-oncology.">
+  <meta property="og:title" content="About — Hepius Therapeutics">
+  <meta property="og:description" content="Learn about Hepius Therapeutics — our mission, founder, and team driving next-generation precision immuno-oncology.">
+  <meta property="og:image" content="assets/og-image.png">
+  <meta property="og:url" content="https://hepiustherapeutics.com/about.html">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://hepiustherapeutics.com/about.html">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'Noto Sans SC', 'system-ui', '-apple-system', 'PingFang SC', 'Microsoft YaHei', 'sans-serif'],
+            mono: ['JetBrains Mono', 'SF Mono', 'Consolas', 'monospace'],
+          },
+          colors: {
+            primary: { DEFAULT: '#2D2D2D', light: '#717171' },
+            accent: { DEFAULT: '#FF7505', hover: '#E06800' },
+            surface: '#FFF7F0',
+          },
+        },
+      },
+    };
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+</head>
+<body class="bg-white text-primary antialiased">
+
+  <header class="sticky top-0 z-50 bg-white border-b border-gray-200">
+    <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Main navigation">
+      <div class="flex items-center justify-between h-16 lg:h-20">
+        <a href="index.html" class="flex-shrink-0">
+          <img src="assets/logo.png" alt="Hepius Therapeutics" class="h-8 lg:h-9 w-auto">
+        </a>
+        <div class="hidden lg:flex lg:items-center lg:gap-1">
+          <a href="index.html" class="px-3 py-2 text-sm font-medium text-primary-light hover:text-primary rounded-md transition-colors" data-i18n="nav.home">首页</a>
+          <a href="about.html" class="px-3 py-2 text-sm font-medium text-accent rounded-md" data-i18n="nav.about">关于我们</a>
+          <a href="science.html" class="px-3 py-2 text-sm font-medium text-primary-light hover:text-primary rounded-md transition-colors" data-i18n="nav.science">科学与技术</a>
+          <a href="pipeline.html" class="px-3 py-2 text-sm font-medium text-primary-light hover:text-primary rounded-md transition-colors" data-i18n="nav.pipeline">研发管线</a>
+          <a href="publications.html" class="px-3 py-2 text-sm font-medium text-primary-light hover:text-primary rounded-md transition-colors" data-i18n="nav.publications">出版物</a>
+          <a href="contact.html" class="px-3 py-2 text-sm font-medium text-primary-light hover:text-primary rounded-md transition-colors" data-i18n="nav.contact">联系我们</a>
+          <button id="lang-toggle" class="ml-4 px-3 py-1.5 text-xs font-semibold border border-gray-300 rounded-full hover:border-primary hover:text-primary transition-colors" data-i18n="nav.langToggle" aria-label="Switch language">EN</button>
+        </div>
+        <button id="mobile-menu-btn" class="lg:hidden p-2 rounded-md text-primary-light hover:text-primary" aria-expanded="false" aria-label="Open menu">
+          <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+            <path d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"/>
+          </svg>
+        </button>
+      </div>
+      <div id="mobile-menu" class="hidden lg:hidden border-t border-gray-100 bg-white">
+        <div class="px-2 pt-2 pb-4 space-y-1">
+          <a href="index.html" class="block px-3 py-2.5 text-base font-medium text-primary-light hover:text-primary rounded-md" data-i18n="nav.home">首页</a>
+          <a href="about.html" class="block px-3 py-2.5 text-base font-medium text-accent rounded-md" data-i18n="nav.about">关于我们</a>
+          <a href="science.html" class="block px-3 py-2.5 text-base font-medium text-primary-light hover:text-primary rounded-md" data-i18n="nav.science">科学与技术</a>
+          <a href="pipeline.html" class="block px-3 py-2.5 text-base font-medium text-primary-light hover:text-primary rounded-md" data-i18n="nav.pipeline">研发管线</a>
+          <a href="publications.html" class="block px-3 py-2.5 text-base font-medium text-primary-light hover:text-primary rounded-md" data-i18n="nav.publications">出版物</a>
+          <a href="contact.html" class="block px-3 py-2.5 text-base font-medium text-primary-light hover:text-primary rounded-md" data-i18n="nav.contact">联系我们</a>
+          <button id="lang-toggle-mobile" class="mt-2 w-full text-center px-3 py-2 text-sm font-semibold border border-gray-300 rounded-full hover:border-primary hover:text-primary transition-colors" data-i18n="nav.langToggle">EN</button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-8 sm:pt-20 sm:pb-10 lg:pt-24 lg:pb-12">
+      <div class="section-divider mb-6"></div>
+      <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-primary" data-i18n="about.pageTitle">关于我们</h1>
+    </section>
+
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16 sm:pb-20">
+      <p class="text-lg sm:text-xl text-primary-light leading-relaxed max-w-3xl" data-i18n="about.mission">
+        PD-1 抑制剂改变了肿瘤治疗格局，但仍有大量患者对现有免疫疗法无响应或产生耐药。赫匹欧斯生物科技以反向转化医学为核心，从临床患者数据出发，识别耐药机制和新靶点，开发针对未满足临床需求的下一代精准免疫治疗药物。
+      </p>
+    </section>
+
+    <section class="bg-surface">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
+          <div class="space-y-6">
+            <div>
+              <span class="text-xs font-semibold uppercase tracking-wider text-accent">成立时间</span>
+              <p class="mt-1 text-base text-primary font-medium" data-i18n="about.overview.founded">2023 年 6 月成立</p>
+            </div>
+            <div>
+              <span class="text-xs font-semibold uppercase tracking-wider text-accent">所在地</span>
+              <p class="mt-1 text-base text-primary font-medium" data-i18n="about.overview.locations">中国苏州 &amp; 美国圣地亚哥</p>
+            </div>
+          </div>
+          <div>
+            <p class="text-xs font-semibold uppercase tracking-wider text-accent" data-i18n="about.overview.approachLabel">我们的方法</p>
+            <h4 class="mt-1 text-lg font-bold text-primary" data-i18n="about.overview.approachTitle">协作驱动的开发模式</h4>
+            <p class="mt-3 text-base text-primary-light leading-relaxed" data-i18n="about.overview.approachDesc">
+              我们采用自研与合作并行的双引擎模式：自主推进核心管线，同时与全球药企建立战略合作。在合适的时间点，我们会就特定项目进行海外授权交易，让最有效的药物以最快速度抵达患者。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 lg:py-24">
+      <div class="grid grid-cols-1 lg:grid-cols-5 gap-10 lg:gap-16 items-start">
+        <div class="lg:col-span-2">
+          <img src="assets/team/yujun-huang-portrait.jpg" alt="Yujun Huang, MD, PhD" class="w-3/4 max-w-xs lg:max-w-sm rounded-lg" width="600" height="741" loading="lazy">
+        </div>
+        <div class="lg:col-span-3">
+          <p class="text-xs font-semibold uppercase tracking-wider text-accent" data-i18n="about.founder.role">创始人、总裁兼首席科学官</p>
+          <h2 class="mt-2 text-2xl sm:text-3xl font-bold text-primary" data-i18n="about.founder.name">黄宇君 博士</h2>
+          <p class="mt-3 text-base text-primary-light font-medium" data-i18n="about.founder.tagline">肿瘤免疫学专家，20 年免疫学领域经验</p>
+          <div class="mt-8 space-y-3 text-sm text-primary-light">
+            <p data-i18n="about.founder.bio.0">Plexium，转化医学负责人</p>
+            <p data-i18n="about.founder.bio.1">OncoMed，转化医学总监（anti-TIGIT etigilimab 项目）</p>
+            <p data-i18n="about.founder.bio.2">AbbVie，免疫肿瘤学首席科学家（ibrutinib 项目）</p>
+            <p data-i18n="about.founder.bio.3">La Jolla 免疫研究所，博士后</p>
+          </div>
+          <div class="mt-8 pt-6 border-t border-gray-200">
+            <p class="text-xs text-primary-light leading-relaxed" data-i18n="about.founder.education">
+              复旦大学 MD · 芝加哥 Loyola 大学肿瘤免疫学博士
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-surface">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 lg:py-24">
+        <div class="section-divider mb-6"></div>
+        <h2 class="text-2xl sm:text-3xl font-bold text-primary" data-i18n="about.team.sectionTitle">联合创始人与团队</h2>
+
+        <!-- Co-founders -->
+        <div class="mt-12">
+          <h3 class="text-sm font-semibold tracking-widest uppercase text-primary" data-i18n="about.team.cofoundersTitle">联合创始人</h3>
+          <div class="section-divider mt-3 mb-5" style="width:24px"></div>
+          <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-10">
+            <div>
+              <h4 class="text-base font-bold text-primary" data-i18n="about.team.members.0.name">陈旭文</h4>
+              <p class="mt-1 text-xs font-semibold uppercase tracking-wider text-accent" data-i18n="about.team.members.0.role">联合创始人，经营管理与资源合作</p>
+              <p class="mt-2 text-sm text-primary-light leading-relaxed" data-i18n="about.team.members.0.expertise">20 年生物科技企业管理经验及顶级临床资源合作经验</p>
+              <p class="mt-1 text-xs text-primary-light" data-i18n="about.team.members.0.education">复旦大学上海医学院 医学学士</p>
+            </div>
+            <div>
+              <h4 class="text-base font-bold text-primary" data-i18n="about.team.members.1.name">李育榕</h4>
+              <p class="mt-1 text-xs font-semibold uppercase tracking-wider text-accent" data-i18n="about.team.members.1.role">联合创始人，投融资与经营管理</p>
+              <p class="mt-2 text-sm text-primary-light leading-relaxed" data-i18n="about.team.members.1.expertise">多年工业企业经营管理与投融资经验</p>
+              <p class="mt-1 text-xs text-primary-light" data-i18n="about.team.members.1.education">UCSD 数学与经济学双学士</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- R&D Team -->
+        <div class="mt-14">
+          <h3 class="text-sm font-semibold tracking-widest uppercase text-primary" data-i18n="about.team.rdTitle">研发团队</h3>
+          <div class="section-divider mt-3 mb-5" style="width:24px"></div>
+          <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-10">
+            <div>
+              <h4 class="text-base font-bold text-primary" data-i18n="about.team.members.2.name">梁晓 博士</h4>
+              <p class="mt-1 text-xs font-semibold uppercase tracking-wider text-accent" data-i18n="about.team.members.2.role">抗体发现与工程</p>
+              <p class="mt-2 text-sm text-primary-light leading-relaxed" data-i18n="about.team.members.2.expertise">抗体筛选、优化、成药性评估与专利布局</p>
+              <p class="mt-1 text-xs text-primary-light" data-i18n="about.team.members.2.education">清华大学博士</p>
+            </div>
+            <div>
+              <h4 class="text-base font-bold text-primary" data-i18n="about.team.members.3.name">张煦 博士</h4>
+              <p class="mt-1 text-xs font-semibold uppercase tracking-wider text-accent" data-i18n="about.team.members.3.role">抗体人源化改造与免疫基因组学</p>
+              <p class="mt-2 text-sm text-primary-light leading-relaxed" data-i18n="about.team.members.3.expertise">抗体人源化改造；基于 NGS 的适应性免疫组测序与数据分析管道</p>
+              <p class="mt-1 text-xs text-primary-light" data-i18n="about.team.members.3.education">第二军医大学博士</p>
+            </div>
+            <div>
+              <h4 class="text-base font-bold text-primary" data-i18n="about.team.members.4.name">张天成 博士</h4>
+              <p class="mt-1 text-xs font-semibold uppercase tracking-wider text-accent" data-i18n="about.team.members.4.role">蛋白质组学与生物标志物发现</p>
+              <p class="mt-2 text-sm text-primary-light leading-relaxed" data-i18n="about.team.members.4.expertise">基于精准蛋白质组学的卵巢癌/宫颈癌血浆生物标志物筛选及分析</p>
+              <p class="mt-1 text-xs text-primary-light" data-i18n="about.team.members.4.education">中国科学院博士</p>
+            </div>
+            <div>
+              <h4 class="text-base font-bold text-primary" data-i18n="about.team.members.5.name">高戎戎 博士</h4>
+              <p class="mt-1 text-xs font-semibold uppercase tracking-wider text-accent" data-i18n="about.team.members.5.role">肿瘤免疫学，TIL 与 TCR</p>
+              <p class="mt-2 text-sm text-primary-light leading-relaxed" data-i18n="about.team.members.5.expertise">肿瘤免疫 TIL/TCR 领域研究</p>
+              <p class="mt-1 text-xs text-primary-light" data-i18n="about.team.members.5.education">复旦大学博士</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="bg-primary text-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
+      <div class="grid grid-cols-1 lg:grid-cols-[1.5fr_1fr_1.5fr] gap-10 lg:gap-16">
+        <div class="lg:max-w-xs">
+          <a href="index.html">
+            <img src="assets/logo.png" alt="Hepius Therapeutics" class="h-7 w-auto brightness-0 invert">
+          </a>
+          <p class="mt-5 text-sm text-gray-400 leading-relaxed" data-i18n="footer.tagline">以病人为中心的反向转化医学平台，开发差异化的下一代精准肿瘤免疫治疗药物，为耐药患者提供新选择。</p>
+        </div>
+        <div>
+          <h4 class="text-sm font-semibold uppercase tracking-wider text-gray-300" data-i18n="footer.quickLinks">快速链接</h4>
+          <ul class="mt-4 space-y-3">
+            <li><a href="about.html" class="footer-link text-sm text-gray-400" data-i18n="nav.about">关于我们</a></li>
+            <li><a href="science.html" class="footer-link text-sm text-gray-400" data-i18n="nav.science">科学与技术</a></li>
+            <li><a href="pipeline.html" class="footer-link text-sm text-gray-400" data-i18n="nav.pipeline">研发管线</a></li>
+            <li><a href="publications.html" class="footer-link text-sm text-gray-400" data-i18n="nav.publications">出版物</a></li>
+            <li><a href="contact.html" class="footer-link text-sm text-gray-400" data-i18n="nav.contact">联系我们</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-sm font-semibold uppercase tracking-wider text-gray-300" data-i18n="footer.contactHeading">联系方式</h4>
+          <ul class="mt-4 space-y-3">
+            <li>
+              <span class="text-xs text-gray-500">BD</span><br>
+              <a href="mailto:BD@hepiustherapeutics.com" class="footer-link text-sm text-gray-400 break-all">BD@hepiustherapeutics.com</a>
+            </li>
+            <li>
+              <span class="text-xs text-gray-500">Academic</span><br>
+              <a href="mailto:yhuang@hepiustherapeutics.com" class="footer-link text-sm text-gray-400 break-all">yhuang@hepiustherapeutics.com</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="mt-12 pt-8 border-t border-gray-700">
+        <p class="text-xs text-gray-500" data-i18n="footer.copyright">&copy; 2025 Hepius Therapeutics. 保留所有权利。</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/nav.js"></script>
+</body>
+</html>

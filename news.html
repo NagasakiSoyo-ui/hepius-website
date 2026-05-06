@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News — Hepius Therapeutics</title>
+  <meta name="description" content="Hepius Therapeutics news and announcements.">
+  <meta property="og:title" content="News — Hepius Therapeutics">
+  <meta property="og:description" content="Hepius Therapeutics news and announcements.">
+  <meta property="og:image" content="assets/og-image.png">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://hepiustherapeutics.com/news.html">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config={theme:{extend:{fontFamily:{sans:['Inter','Noto Sans SC','system-ui','-apple-system','PingFang SC','Microsoft YaHei','sans-serif'],mono:['JetBrains Mono','SF Mono','Consolas','monospace']},colors:{primary:{DEFAULT:'#2D2D2D',light:'#717171'},accent:{DEFAULT:'#FF7505',hover:'#E06800'},surface:'#FFF7F0'}}}};</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+</head>
+<body class="bg-white text-primary antialiased">
+  <header class="sticky top-0 z-50 bg-white border-b border-gray-200">
+    <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Main navigation">
+      <div class="flex items-center justify-between h-16 lg:h-20">
+        <a href="index.html" class="flex-shrink-0"><img src="assets/logo.png" alt="Hepius Therapeutics" class="h-8 lg:h-9 w-auto"></a>
+        <div class="hidden lg:flex lg:items-center lg:gap-1">
+          <a href="index.html" class="px-3 py-2 text-sm font-medium text-primary-light hover:text-primary rounded-md transition-colors" data-i18n="nav.home">Home</a>
+          <a href="about.html" class="px-3 py-2 text-sm font-medium text-primary-light hover:text-primary rounded-md transition-colors" data-i18n="nav.about">About</a>
+          <a href="science.html" class="px-3 py-2 text-sm font-medium text-primary-light hover:text-primary rounded-md transition-colors" data-i18n="nav.science">Science</a>
+          <a href="pipeline.html" class="px-3 py-2 text-sm font-medium text-primary-light hover:text-primary rounded-md transition-colors" data-i18n="nav.pipeline">Pipeline</a>
+          <a href="publications.html" class="px-3 py-2 text-sm font-medium text-primary-light hover:text-primary rounded-md transition-colors" data-i18n="nav.publications">Publications</a>
+          <a href="contact.html" class="px-3 py-2 text-sm font-medium text-primary-light hover:text-primary rounded-md transition-colors" data-i18n="nav.contact">Contact</a>
+          <button id="lang-toggle" class="ml-4 px-3 py-1.5 text-xs font-semibold border border-gray-300 rounded-full hover:border-primary hover:text-primary transition-colors" data-i18n="nav.langToggle" aria-label="Switch language">EN</button>
+        </div>
+        <button id="mobile-menu-btn" class="lg:hidden p-2 rounded-md text-primary-light hover:text-primary" aria-expanded="false"><svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5"><path d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"/></svg></button>
+      </div>
+      <div id="mobile-menu" class="hidden lg:hidden border-t border-gray-100 bg-white">
+        <div class="px-2 pt-2 pb-4 space-y-1">
+          <a href="index.html" class="block px-3 py-2.5 text-base font-medium text-primary-light hover:text-primary rounded-md" data-i18n="nav.home">Home</a>
+          <a href="about.html" class="block px-3 py-2.5 text-base font-medium text-primary-light hover:text-primary rounded-md" data-i18n="nav.about">About</a>
+          <a href="science.html" class="block px-3 py-2.5 text-base font-medium text-primary-light hover:text-primary rounded-md" data-i18n="nav.science">Science</a>
+          <a href="pipeline.html" class="block px-3 py-2.5 text-base font-medium text-primary-light hover:text-primary rounded-md" data-i18n="nav.pipeline">Pipeline</a>
+          <a href="publications.html" class="block px-3 py-2.5 text-base font-medium text-primary-light hover:text-primary rounded-md" data-i18n="nav.publications">Publications</a>
+          <a href="contact.html" class="block px-3 py-2.5 text-base font-medium text-primary-light hover:text-primary rounded-md" data-i18n="nav.contact">Contact</a>
+          <button id="lang-toggle-mobile" class="mt-2 w-full text-center px-3 py-2 text-sm font-semibold border border-gray-300 rounded-full hover:border-primary hover:text-primary transition-colors" data-i18n="nav.langToggle">EN</button>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="flex items-center justify-center min-h-[60vh]">
+    <div class="text-center px-4 py-20 max-w-md">
+      <svg class="h-16 w-16 text-primary-light mx-auto mb-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h2"/><path d="M18 14h-8"/><path d="M15 18h-5"/><path d="M10 6h8v4h-8V6Z"/></svg>
+      <h2 class="text-2xl font-bold text-primary" data-i18n="common.comingSoon">Coming Soon</h2>
+      <p class="mt-3 text-sm text-primary-light leading-relaxed" data-i18n="news.placeholder">We will share company milestones, partnerships, and scientific highlights here. Stay tuned.</p>
+      <a href="index.html" class="mt-8 inline-flex items-center px-5 py-2.5 text-sm font-semibold text-primary border border-gray-300 hover:border-primary rounded-full transition-colors" data-i18n="news.backHome">Return to Home</a>
+    </div>
+  </main>
+  <footer class="bg-primary text-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
+      <div class="grid grid-cols-1 lg:grid-cols-[1.5fr_1fr_1.5fr] gap-10 lg:gap-16">
+        <div class="lg:max-w-xs"><a href="index.html"><img src="assets/logo.png" alt="Hepius Therapeutics" class="h-7 w-auto brightness-0 invert"></a><p class="mt-5 text-sm text-gray-400 leading-relaxed" data-i18n="footer.tagline">A reverse translational medicine platform developing next-generation precision immuno-oncology therapeutics — translating patient biology into differentiated treatments beyond PD-1.</p></div>
+        <div><h4 class="text-sm font-semibold uppercase tracking-wider text-gray-300" data-i18n="footer.quickLinks">Quick Links</h4><ul class="mt-4 space-y-3"><li><a href="about.html" class="footer-link text-sm text-gray-400" data-i18n="nav.about">About</a></li><li><a href="science.html" class="footer-link text-sm text-gray-400" data-i18n="nav.science">Science</a></li><li><a href="pipeline.html" class="footer-link text-sm text-gray-400" data-i18n="nav.pipeline">Pipeline</a></li><li><a href="publications.html" class="footer-link text-sm text-gray-400" data-i18n="nav.publications">Publications</a></li><li><a href="contact.html" class="footer-link text-sm text-gray-400" data-i18n="nav.contact">Contact</a></li></ul></div>
+        <div><h4 class="text-sm font-semibold uppercase tracking-wider text-gray-300" data-i18n="footer.contactHeading">Contact</h4><ul class="mt-4 space-y-3"><li><span class="text-xs text-gray-500">BD</span><br><a href="mailto:BD@hepiustherapeutics.com" class="footer-link text-sm text-gray-400 break-all">BD@hepiustherapeutics.com</a></li><li><span class="text-xs text-gray-500">Academic</span><br><a href="mailto:yhuang@hepiustherapeutics.com" class="footer-link text-sm text-gray-400 break-all">yhuang@hepiustherapeutics.com</a></li></ul></div>
+      </div>
+      <div class="mt-12 pt-8 border-t border-gray-700"><p class="text-xs text-gray-500" data-i18n="footer.copyright">&copy; 2025 Hepius Therapeutics. All rights reserved.</p></div>
+    </div>
+  </footer>
+  <script src="js/i18n.js"></script>
+  <script src="js/nav.js"></script>
+</body>
+</html>
