@@ -20,7 +20,7 @@ Hepius/
 ├── index.html               Home
 ├── about.html               About — mission, founder, team
 ├── science.html             Science & Technology — platform, equipment, proprietary tech
-├── pipeline.html            Pipeline — overview table + HP-001/002/004 detail sections
+├── pipeline.html            Pipeline — overview table + HP-002/004 detail sections
 ├── publications.html        Publications — AACR 2026 Poster #7193
 ├── news.html                News (placeholder)
 ├── careers.html             Careers (placeholder)

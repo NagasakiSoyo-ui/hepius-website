@@ -19,17 +19,39 @@
     "value": {
       "sectionTitle": "Core Capabilities",
       "cards": [
-        { "title": "Reverse Translational Platform", "desc": "A patient-centric, biomarker-driven platform that integrates clinical data with laboratory discovery to identify targets, select indications, and guide drug development from bedside to bench and back." },
-        { "title": "TCR Discovery & Engineering", "desc": "A 4-week efficient TCR discovery workflow, combined with proprietary soluble TCR expression and cell-based affinity screening, enabling targeting of intracellular antigens." },
-        { "title": "Multi-Modality Therapeutics", "desc": "Spanning antibodies, TCR-CD3 bispecifics, ADCs, and radiopharmaceuticals (RDC) — matching each target and indication with the optimal therapeutic modality." }
+        {
+          "title": "Reverse Translational Platform",
+          "desc": "A patient-centric, biomarker-driven platform that integrates clinical data with laboratory discovery to identify targets, select indications, and guide drug development from bedside to bench and back."
+        },
+        {
+          "title": "TCR Discovery & Engineering",
+          "desc": "A 4-week efficient TCR discovery workflow, combined with proprietary soluble TCR expression and cell-based affinity screening, enabling targeting of intracellular antigens."
+        },
+        {
+          "title": "Multi-Modality Therapeutics",
+          "desc": "Spanning antibodies, TCR-CD3 bispecifics, ADCs, and radiopharmaceuticals (RDC) — matching each target and indication with the optimal therapeutic modality."
+        }
       ]
     },
     "pipelinePreview": {
       "sectionTitle": "Pipeline",
       "cards": [
-        { "target": "LILRB2", "name": "HP-001", "title": "Macrophage Dual Immune Checkpoint Antibody", "indication": "Solid tumors (PD-1i combo)", "stage": "Preclinical Candidate", "link": "Learn More →" },
-        { "target": "PRAME/HLA-A*02:01", "name": "HP-002", "title": "TCR-CD3 Bispecific / TCR-Radioconjugate", "indication": "PRAME-positive Solid Tumors", "stage": "Preclinical", "link": "Learn More →" },
-        { "target": "Undisclosed Tumor Surface Antigen", "name": "HP-004", "title": "ADC / CD3 Bispecific / RDC", "indication": "Solid Tumors", "stage": "Preclinical", "link": "Learn More →" }
+        {
+          "target": "PRAME/HLA-A*02:01",
+          "name": "HP-002",
+          "title": "TCR-CD3 Bispecific / TCR-Radioconjugate",
+          "indication": "PRAME-positive Solid Tumors",
+          "stage": "Preclinical",
+          "link": "Learn More →"
+        },
+        {
+          "target": "Undisclosed Tumor Surface Antigen",
+          "name": "HP-004",
+          "title": "ADC / CD3 Bispecific / RDC",
+          "indication": "Solid Tumors",
+          "stage": "Preclinical",
+          "link": "Learn More →"
+        }
       ],
       "viewAll": "View Full Pipeline"
     }
@@ -61,12 +83,42 @@
       "cofoundersTitle": "Co-founders",
       "rdTitle": "R&D Team",
       "members": [
-        { "name": "Xuwen Chen", "role": "Co-founder, Operations &amp; Strategic Resources", "expertise": "20 years of experience in biotech management and clinical resource collaboration", "education": "MB, Shanghai Medical College of Fudan University" },
-        { "name": "Yurong Li", "role": "Co-founder, Investment &amp; Operations", "expertise": "Investment management and corporate finance expertise", "education": "BS in Mathematics &amp; Economics, UC San Diego" },
-        { "name": "Xiao Liang, PhD", "role": "Antibody Discovery &amp; Engineering", "expertise": "Antibody screening, optimization, developability, and IP strategy", "education": "PhD, Chinese Academy of Sciences" },
-        { "name": "Xu Zhang, PhD", "role": "Antibody Humanization &amp; Immunogenomics", "expertise": "Humanized antibody engineering; NGS-based adaptive immune repertoire sequencing pipelines", "education": "PhD, Tsinghua University" },
-        { "name": "Tiancheng Zhang, PhD", "role": "Proteomics &amp; Biomarker Discovery", "expertise": "Plasma biomarker discovery in ovarian/cervical cancer via precision proteomics", "education": "PhD, Second Military Medical University" },
-        { "name": "Rongrong Gao, PhD", "role": "Tumor Immunology, TIL &amp; TCR", "expertise": "TIL/TCR research in tumor immunology", "education": "PhD, Fudan University" }
+        {
+          "name": "Xuwen Chen",
+          "role": "Co-founder, Operations &amp; Strategic Resources",
+          "expertise": "20 years of experience in biotech management and clinical resource collaboration",
+          "education": "MB, Shanghai Medical College of Fudan University"
+        },
+        {
+          "name": "Yurong Li",
+          "role": "Co-founder, Investment &amp; Operations",
+          "expertise": "Investment management and corporate finance expertise",
+          "education": "BS in Mathematics &amp; Economics, UC San Diego"
+        },
+        {
+          "name": "Xiao Liang, PhD",
+          "role": "Antibody Discovery &amp; Engineering",
+          "expertise": "Antibody screening, optimization, developability, and IP strategy",
+          "education": "PhD, Chinese Academy of Sciences"
+        },
+        {
+          "name": "Xu Zhang, PhD",
+          "role": "Antibody Humanization &amp; Immunogenomics",
+          "expertise": "Humanized antibody engineering; NGS-based adaptive immune repertoire sequencing pipelines",
+          "education": "PhD, Tsinghua University"
+        },
+        {
+          "name": "Tiancheng Zhang, PhD",
+          "role": "Proteomics &amp; Biomarker Discovery",
+          "expertise": "Plasma biomarker discovery in ovarian/cervical cancer via precision proteomics",
+          "education": "PhD, Second Military Medical University"
+        },
+        {
+          "name": "Rongrong Gao, PhD",
+          "role": "Tumor Immunology, TIL &amp; TCR",
+          "expertise": "TIL/TCR research in tumor immunology",
+          "education": "PhD, Fudan University"
+        }
       ]
     }
   },
@@ -97,30 +149,82 @@
       "title": "Core Equipment",
       "subtitle": "Our discovery and characterization workflows are powered by industry-standard instrumentation.",
       "items": [
-        { "name": "BD LSR Fortessa Flow Cytometer", "nameZh": "BD LSR Fortessa 流式细胞仪", "desc": "3-laser 14-color flow cytometry" },
-        { "name": "Perkin Elmer Multiplex IHC (Phenoptics)", "nameZh": "Perkin Elmer 多重免疫组化", "desc": "Quantitative pathology platform" },
-        { "name": "Nikon A1R Confocal + STORM Super-Resolution", "nameZh": "尼康 A1R 共聚焦 + STORM 超分辨", "desc": "Super-resolution microscopy" },
-        { "name": "Lumina XRMS In Vivo Imaging System", "nameZh": "Lumina XRMS 小动物活体成像仪", "desc": "Small-animal bioluminescence &amp; fluorescence" },
-        { "name": "LightCycler 480II qPCR", "nameZh": "LightCycler 480II 荧光定量 PCR", "desc": "Real-time quantitative PCR" }
+        {
+          "name": "BD LSR Fortessa Flow Cytometer",
+          "nameZh": "BD LSR Fortessa 流式细胞仪",
+          "desc": "3-laser 14-color flow cytometry"
+        },
+        {
+          "name": "Perkin Elmer Multiplex IHC (Phenoptics)",
+          "nameZh": "Perkin Elmer 多重免疫组化",
+          "desc": "Quantitative pathology platform"
+        },
+        {
+          "name": "Nikon A1R Confocal + STORM Super-Resolution",
+          "nameZh": "尼康 A1R 共聚焦 + STORM 超分辨",
+          "desc": "Super-resolution microscopy"
+        },
+        {
+          "name": "Lumina XRMS In Vivo Imaging System",
+          "nameZh": "Lumina XRMS 小动物活体成像仪",
+          "desc": "Small-animal bioluminescence &amp; fluorescence"
+        },
+        {
+          "name": "LightCycler 480II qPCR",
+          "nameZh": "LightCycler 480II 荧光定量 PCR",
+          "desc": "Real-time quantitative PCR"
+        }
       ]
     },
     "tech": {
       "title": "Proprietary Technologies",
       "cards": [
-        { "title": "4-Week TCR Discovery Pipeline", "desc": "Identification of antigen-specific native TCRs from PBMCs/TILs within four weeks via tetramer staining, FACS sorting, and 10X single-cell sequencing." },
-        { "title": "Soluble TCR Expression", "desc": "Engineered constant-region mutations and Fc fusion enable yields up to 93 mg/L for native TCRs without affinity enhancement." },
-        { "title": "Cell-Based TCR Affinity Screening", "desc": "Proprietary THP-1 cell-based screening method enables affinity characterization of soluble native TCRs — solving a long-standing challenge in preclinical TCR research." },
-        { "title": "Multi-Format TCR Therapeutics", "desc": "Versatile molecular formats — monovalent scTCR, bivalent TCR-Fc, and TCR-CD3 T-cell engagers — supporting both therapeutic and radiodiagnostic applications." }
+        {
+          "title": "4-Week TCR Discovery Pipeline",
+          "desc": "Identification of antigen-specific native TCRs from PBMCs/TILs within four weeks via tetramer staining, FACS sorting, and 10X single-cell sequencing."
+        },
+        {
+          "title": "Soluble TCR Expression",
+          "desc": "Engineered constant-region mutations and Fc fusion enable yields up to 93 mg/L for native TCRs without affinity enhancement."
+        },
+        {
+          "title": "Cell-Based TCR Affinity Screening",
+          "desc": "Proprietary THP-1 cell-based screening method enables affinity characterization of soluble native TCRs — solving a long-standing challenge in preclinical TCR research."
+        },
+        {
+          "title": "Multi-Format TCR Therapeutics",
+          "desc": "Versatile molecular formats — monovalent scTCR, bivalent TCR-Fc, and TCR-CD3 T-cell engagers — supporting both therapeutic and radiodiagnostic applications."
+        }
       ]
     },
     "workflow": {
       "title": "4-Week TCR Discovery Workflow",
       "steps": [
-        { "title": "PBMC Stimulation", "duration": "10 days", "desc": "Antigen peptide stimulation of PBMCs/TILs" },
-        { "title": "IFNγ + Tetramer Detection", "duration": "5 days", "desc": "Identify antigen-specific T-cell populations" },
-        { "title": "FACS Sorting & 10X scRNA-seq", "duration": "28 days", "desc": "Single-cell sorting and TCR sequencing" },
-        { "title": "Lentivirus Construction", "duration": "24 days", "desc": "Package TCR into lentiviral vectors" },
-        { "title": "Validation & Flow Cytometry", "duration": "16 days", "desc": "Confirm TCR specificity via transduction" }
+        {
+          "title": "PBMC Stimulation",
+          "duration": "10 days",
+          "desc": "Antigen peptide stimulation of PBMCs/TILs"
+        },
+        {
+          "title": "IFNγ + Tetramer Detection",
+          "duration": "5 days",
+          "desc": "Identify antigen-specific T-cell populations"
+        },
+        {
+          "title": "FACS Sorting & 10X scRNA-seq",
+          "duration": "28 days",
+          "desc": "Single-cell sorting and TCR sequencing"
+        },
+        {
+          "title": "Lentivirus Construction",
+          "duration": "24 days",
+          "desc": "Package TCR into lentiviral vectors"
+        },
+        {
+          "title": "Validation & Flow Cytometry",
+          "duration": "16 days",
+          "desc": "Confirm TCR specificity via transduction"
+        }
       ]
     }
   },
@@ -128,33 +232,51 @@
     "pageTitle": "Pipeline",
     "pageSubtitle": "Differentiated programs across multiple modalities — antibodies, TCR-CD3 T-cell engagers, and radioconjugates.",
     "table": {
-      "headers": ["Program", "Target", "Indication Focus", "Modality", "Stage"],
-      "stages": ["Discovery", "Preclinical", "IND-enabling", "Phase I", "Phase II"],
-      "rows": [
-        { "program": "HP-001", "target": "LILRB2 (± LILRB1)", "indication": "Solid tumors (PD-1i combo)", "modality": "Humanized antibody", "stage": "Preclinical Lead Candidate", "stageIndex": 3 },
-        { "program": "HP-002", "target": "PRAME/HLA-A*02:01", "indication": "PRAME-positive solid tumors", "modality": "TCR-CD3 BsAb / TCR Radioconjugate", "stage": "Preclinical", "stageIndex": 2 },
-        { "program": "HP-002 (ext)", "target": "MAGE-A4/HLA-A*02:01", "indication": "Solid tumors", "modality": "Same platform", "stage": "Discovery", "stageIndex": 1 },
-        { "program": "HP-004", "target": "Undisclosed tumor surface antigen", "indication": "Solid tumors", "modality": "ADC / TCE / RDC", "stage": "Preclinical", "stageIndex": 2 }
-      ]
-    },
-    "tabs": ["HP-001", "HP-002", "HP-004"],
-    "hp001": {
-      "code": "HP-001",
-      "stage": "Preclinical Lead Candidate",
-      "title": "Macrophage Dual Immune Checkpoint Antibody",
-      "facts": [
-        "Target: LILRB2 (± LILRB1)",
-        "Modality: Humanized antibody",
-        "Mechanism: Macrophage dual immune checkpoint inhibition"
+      "headers": [
+        "Program",
+        "Target",
+        "Indication Focus",
+        "Modality",
+        "Stage"
       ],
-      "desc": "HP-001 targets LILRB2 — a key inhibitory receptor on tumor-associated macrophages that suppresses anti-tumor immunity through HLA-G interaction. Two candidate classes are in development: single-blockade (LILRB2/HLA-G) and dual-blockade (LILRB2 + LILRB1) humanized antibodies.",
-      "highlights": [
-        "In vitro / ex vivo activity exceeds reference antibodies (Merck, BMS, Roche partner clinical-stage molecules)",
-        "Demonstrated tumor growth inhibition in LLC syngeneic model with hLILRB2 transgenic mice",
-        "Humanized antibodies retain full binding, blocking and biological activity",
-        "Combination potential with PD-1 inhibitors"
+      "stages": [
+        "Discovery",
+        "Preclinical",
+        "IND-enabling",
+        "Phase I",
+        "Phase II"
+      ],
+      "rows": [
+        {
+          "program": "HP-002",
+          "target": "PRAME/HLA-A*02:01",
+          "indication": "PRAME-positive solid tumors",
+          "modality": "TCR-CD3 BsAb / TCR Radioconjugate",
+          "stage": "Preclinical",
+          "stageIndex": 2
+        },
+        {
+          "program": "HP-002 (ext)",
+          "target": "MAGE-A4/HLA-A*02:01",
+          "indication": "Solid tumors",
+          "modality": "Same platform",
+          "stage": "Discovery",
+          "stageIndex": 1
+        },
+        {
+          "program": "HP-004",
+          "target": "Undisclosed tumor surface antigen",
+          "indication": "Solid tumors",
+          "modality": "ADC / TCE / RDC",
+          "stage": "Preclinical",
+          "stageIndex": 2
+        }
       ]
     },
+    "tabs": [
+      "HP-002",
+      "HP-004"
+    ],
     "hp002": {
       "code": "HP-002",
       "stage": "Preclinical",
@@ -221,7 +343,11 @@
       "title": "Utilize a Soluble T-cell Receptor TCR Targeting Tumor Intracellular Antigen PRAME to Develop Therapeutic and Radioactive Diagnostic Agents for PRAME-positive Tumors",
       "authors": "Xiao Liang, Yajuan Xue, Yujun Huang",
       "abstract": "We established a proprietary TCR discovery platform for rapid identification of PRAME₄₂₅ₙ₄₃₃/HLA-A*02:01-specific TCRs without affinity enhancement. The lead candidate HP-002 (KD = 1.08 × 10⁻⁷ M) demonstrates dual-modality potential: TCR-CD3 bispecific T-cell engagers for therapy and ¹²⁵I-labeled radiotracers for SPECT/CT diagnostics. ¹²⁵I-PR2-Fc-LALAPG showed antigen-dependent tumor accumulation in Hs695T xenograft models.",
-      "tags": ["TCR Therapy", "SPECT/CT Imaging", "PRAME"],
+      "tags": [
+        "TCR Therapy",
+        "SPECT/CT Imaging",
+        "PRAME"
+      ],
       "downloadBtn": "Download PDF",
       "viewPipelineBtn": "View Pipeline"
     },

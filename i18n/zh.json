@@ -19,17 +19,39 @@
     "value": {
       "sectionTitle": "核心能力",
       "cards": [
-        { "title": "反向转化医学平台", "desc": "从临床样本出发，以病人生物信息数据驱动靶点识别、药物筛选与适应症选择，构建从临床到实验室再到临床的闭环。" },
-        { "title": "TCR 发现与工程平台", "desc": "4 周高效 TCR 发现流程，结合天然 TCR 可溶性表达与专利亲和力筛选平台，实现胞内抗原靶向。" },
-        { "title": "多模态治疗开发", "desc": "覆盖抗体、TCR-CD3 双特异性抗体、ADC 及核素偶联药物（RDC），为不同靶点与适应症匹配最优药物形式。" }
+        {
+          "title": "反向转化医学平台",
+          "desc": "从临床样本出发，以病人生物信息数据驱动靶点识别、药物筛选与适应症选择，构建从临床到实验室再到临床的闭环。"
+        },
+        {
+          "title": "TCR 发现与工程平台",
+          "desc": "4 周高效 TCR 发现流程，结合天然 TCR 可溶性表达与专利亲和力筛选平台，实现胞内抗原靶向。"
+        },
+        {
+          "title": "多模态治疗开发",
+          "desc": "覆盖抗体、TCR-CD3 双特异性抗体、ADC 及核素偶联药物（RDC），为不同靶点与适应症匹配最优药物形式。"
+        }
       ]
     },
     "pipelinePreview": {
       "sectionTitle": "研发管线",
       "cards": [
-        { "target": "LILRB2", "name": "HP-001", "title": "巨噬细胞双免疫检查点抗体", "indication": "实体瘤（与 PD-1i 联用）", "stage": "临床前候选", "link": "了解详情 →" },
-        { "target": "PRAME/HLA-A*02:01", "name": "HP-002", "title": "TCR-CD3 双抗 / TCR-核素偶联", "indication": "PRAME 阳性实体瘤", "stage": "临床前", "link": "了解详情 →" },
-        { "target": "未公开肿瘤表面抗原", "name": "HP-004", "title": "ADC / CD3 双抗 / RDC", "indication": "实体瘤", "stage": "临床前", "link": "了解详情 →" }
+        {
+          "target": "PRAME/HLA-A*02:01",
+          "name": "HP-002",
+          "title": "TCR-CD3 双抗 / TCR-核素偶联",
+          "indication": "PRAME 阳性实体瘤",
+          "stage": "临床前",
+          "link": "了解详情 →"
+        },
+        {
+          "target": "未公开肿瘤表面抗原",
+          "name": "HP-004",
+          "title": "ADC / CD3 双抗 / RDC",
+          "indication": "实体瘤",
+          "stage": "临床前",
+          "link": "了解详情 →"
+        }
       ],
       "viewAll": "查看完整管线 →"
     }
@@ -61,12 +83,42 @@
       "cofoundersTitle": "联合创始人",
       "rdTitle": "研发团队",
       "members": [
-        { "name": "陈旭文", "role": "联合创始人，经营管理与资源合作", "expertise": "20 年生物科技企业管理经验及顶级临床资源合作经验", "education": "复旦大学上海医学院 医学学士" },
-        { "name": "李育榕", "role": "联合创始人，投融资与经营管理", "expertise": "多年工业企业经营管理与投融资经验", "education": "UCSD 数学与经济学双学士" },
-        { "name": "梁晓 博士", "role": "抗体发现与工程", "expertise": "抗体筛选、优化、成药性评估与专利布局", "education": "中国科学院博士" },
-        { "name": "张煦 博士", "role": "抗体人源化改造与免疫基因组学", "expertise": "抗体人源化改造；基于 NGS 的适应性免疫组测序与数据分析管道", "education": "清华大学博士" },
-        { "name": "张天成 博士", "role": "蛋白质组学与生物标志物发现", "expertise": "基于精准蛋白质组学的卵巢癌/宫颈癌血浆生物标志物筛选及分析", "education": "第二军医大学博士" },
-        { "name": "高戎戎 博士", "role": "肿瘤免疫学，TIL 与 TCR", "expertise": "肿瘤免疫 TIL/TCR 领域研究", "education": "复旦大学博士" }
+        {
+          "name": "陈旭文",
+          "role": "联合创始人，经营管理与资源合作",
+          "expertise": "20 年生物科技企业管理经验及顶级临床资源合作经验",
+          "education": "复旦大学上海医学院 医学学士"
+        },
+        {
+          "name": "李育榕",
+          "role": "联合创始人，投融资与经营管理",
+          "expertise": "多年工业企业经营管理与投融资经验",
+          "education": "UCSD 数学与经济学双学士"
+        },
+        {
+          "name": "梁晓 博士",
+          "role": "抗体发现与工程",
+          "expertise": "抗体筛选、优化、成药性评估与专利布局",
+          "education": "中国科学院博士"
+        },
+        {
+          "name": "张煦 博士",
+          "role": "抗体人源化改造与免疫基因组学",
+          "expertise": "抗体人源化改造；基于 NGS 的适应性免疫组测序与数据分析管道",
+          "education": "清华大学博士"
+        },
+        {
+          "name": "张天成 博士",
+          "role": "蛋白质组学与生物标志物发现",
+          "expertise": "基于精准蛋白质组学的卵巢癌/宫颈癌血浆生物标志物筛选及分析",
+          "education": "第二军医大学博士"
+        },
+        {
+          "name": "高戎戎 博士",
+          "role": "肿瘤免疫学，TIL 与 TCR",
+          "expertise": "肿瘤免疫 TIL/TCR 领域研究",
+          "education": "复旦大学博士"
+        }
       ]
     }
   },
@@ -97,30 +149,82 @@
       "title": "核心设备",
       "subtitle": "我们的药物发现与表征工作流由行业标准仪器支持。",
       "items": [
-        { "name": "BD LSR Fortessa 流式细胞仪", "nameZh": "BD LSR Fortessa Flow Cytometer", "desc": "3 激光 14 色流式分析" },
-        { "name": "Perkin Elmer 多重免疫组化 (Phenoptics)", "nameZh": "Perkin Elmer Multiplex IHC (Phenoptics)", "desc": "定量病理平台" },
-        { "name": "尼康 A1R 共聚焦 + STORM 超分辨显微镜", "nameZh": "Nikon A1R Confocal + STORM", "desc": "超分辨显微系统" },
-        { "name": "Lumina XRMS 小动物活体成像仪", "nameZh": "Lumina XRMS In Vivo Imaging", "desc": "小动物活体生物发光与荧光成像" },
-        { "name": "LightCycler 480II 荧光定量 PCR 仪", "nameZh": "LightCycler 480II qPCR", "desc": "实时荧光定量 PCR" }
+        {
+          "name": "BD LSR Fortessa 流式细胞仪",
+          "nameZh": "BD LSR Fortessa Flow Cytometer",
+          "desc": "3 激光 14 色流式分析"
+        },
+        {
+          "name": "Perkin Elmer 多重免疫组化 (Phenoptics)",
+          "nameZh": "Perkin Elmer Multiplex IHC (Phenoptics)",
+          "desc": "定量病理平台"
+        },
+        {
+          "name": "尼康 A1R 共聚焦 + STORM 超分辨显微镜",
+          "nameZh": "Nikon A1R Confocal + STORM",
+          "desc": "超分辨显微系统"
+        },
+        {
+          "name": "Lumina XRMS 小动物活体成像仪",
+          "nameZh": "Lumina XRMS In Vivo Imaging",
+          "desc": "小动物活体生物发光与荧光成像"
+        },
+        {
+          "name": "LightCycler 480II 荧光定量 PCR 仪",
+          "nameZh": "LightCycler 480II qPCR",
+          "desc": "实时荧光定量 PCR"
+        }
       ]
     },
     "tech": {
       "title": "专有技术",
       "cards": [
-        { "title": "4 周 TCR 发现流程", "desc": "通过四聚体染色、流式分选和 10X 单细胞测序，4 周内从 PBMC/TIL 鉴定抗原特异性的天然 TCR。" },
-        { "title": "天然 TCR 可溶性表达", "desc": "通过恒定区突变与 Fc 融合工程，天然 TCR 表达量可达 93 mg/L，无需亲和力增强。" },
-        { "title": "专利 TCR 亲和力筛选平台", "desc": "专有的 THP-1 细胞基筛选平台，实现可溶性天然 TCR 的亲和力表征，解决临床前 TCR 研究的长期难题。" },
-        { "title": "多格式 TCR 治疗分子工程", "desc": "灵活的分子格式——单价 scTCR、二价 TCR-Fc、TCR-CD3 双特异性 T 细胞衔接器——同时支持治疗和核素诊断应用。" }
+        {
+          "title": "4 周 TCR 发现流程",
+          "desc": "通过四聚体染色、流式分选和 10X 单细胞测序，4 周内从 PBMC/TIL 鉴定抗原特异性的天然 TCR。"
+        },
+        {
+          "title": "天然 TCR 可溶性表达",
+          "desc": "通过恒定区突变与 Fc 融合工程，天然 TCR 表达量可达 93 mg/L，无需亲和力增强。"
+        },
+        {
+          "title": "专利 TCR 亲和力筛选平台",
+          "desc": "专有的 THP-1 细胞基筛选平台，实现可溶性天然 TCR 的亲和力表征，解决临床前 TCR 研究的长期难题。"
+        },
+        {
+          "title": "多格式 TCR 治疗分子工程",
+          "desc": "灵活的分子格式——单价 scTCR、二价 TCR-Fc、TCR-CD3 双特异性 T 细胞衔接器——同时支持治疗和核素诊断应用。"
+        }
       ]
     },
     "workflow": {
       "title": "4 周 TCR 发现流程",
       "steps": [
-        { "title": "PBMC 抗原肽刺激", "duration": "10 天", "desc": "抗原肽刺激 PBMC/TIL" },
-        { "title": "IFNγ 及四聚体检测", "duration": "5 天", "desc": "识别抗原特异性 T 细胞群体" },
-        { "title": "流式分选与 10X 单细胞测序", "duration": "28 天", "desc": "单细胞分选与 TCR 测序" },
-        { "title": "慢病毒构建", "duration": "24 天", "desc": "将 TCR 装入慢病毒载体" },
-        { "title": "转染验证与流式检测", "duration": "16 天", "desc": "通过转染确认 TCR 特异性" }
+        {
+          "title": "PBMC 抗原肽刺激",
+          "duration": "10 天",
+          "desc": "抗原肽刺激 PBMC/TIL"
+        },
+        {
+          "title": "IFNγ 及四聚体检测",
+          "duration": "5 天",
+          "desc": "识别抗原特异性 T 细胞群体"
+        },
+        {
+          "title": "流式分选与 10X 单细胞测序",
+          "duration": "28 天",
+          "desc": "单细胞分选与 TCR 测序"
+        },
+        {
+          "title": "慢病毒构建",
+          "duration": "24 天",
+          "desc": "将 TCR 装入慢病毒载体"
+        },
+        {
+          "title": "转染验证与流式检测",
+          "duration": "16 天",
+          "desc": "通过转染确认 TCR 特异性"
+        }
       ]
     }
   },
@@ -128,33 +232,51 @@
     "pageTitle": "研发管线",
     "pageSubtitle": "覆盖多种治疗模态的差异化管线 —— 抗体、TCR-CD3 双特异性 T 细胞衔接器与核素偶联药物。",
     "table": {
-      "headers": ["项目", "靶点", "适应症方向", "形式", "阶段"],
-      "stages": ["发现期", "临床前", "IND-enabling", "I 期临床", "II 期临床"],
-      "rows": [
-        { "program": "HP-001", "target": "LILRB2 (± LILRB1)", "indication": "实体瘤（与 PD-1i 联用）", "modality": "人源化抗体", "stage": "临床前候选分子", "stageIndex": 3 },
-        { "program": "HP-002", "target": "PRAME/HLA-A*02:01", "indication": "PRAME 阳性实体瘤", "modality": "TCR-CD3 双抗 / TCR-核素偶联", "stage": "临床前", "stageIndex": 2 },
-        { "program": "HP-002 (ext)", "target": "MAGE-A4/HLA-A*02:01", "indication": "实体瘤", "modality": "同平台延伸", "stage": "发现期", "stageIndex": 1 },
-        { "program": "HP-004", "target": "未公开肿瘤表面抗原", "indication": "实体瘤", "modality": "ADC / 双抗 / RDC", "stage": "临床前", "stageIndex": 2 }
-      ]
-    },
-    "tabs": ["HP-001", "HP-002", "HP-004"],
-    "hp001": {
-      "code": "HP-001",
-      "stage": "临床前候选分子",
-      "title": "巨噬细胞双免疫检查点抗体",
-      "facts": [
-        "靶点：LILRB2 (± LILRB1)",
-        "形式：人源化抗体",
-        "机制：巨噬细胞双免疫检查点抑制"
+      "headers": [
+        "项目",
+        "靶点",
+        "适应症方向",
+        "形式",
+        "阶段"
       ],
-      "desc": "HP-001 靶向 LILRB2 —— 肿瘤相关巨噬细胞上的关键抑制性受体，通过与 HLA-G 互作抑制抗肿瘤免疫。开发两类候选分子：单阻断（LILRB2/HLA-G）与双阻断（LILRB2 + LILRB1）人源化抗体。",
-      "highlights": [
-        "体外/离体活性超过参照抗体（Merck、BMS、Roche 合作方临床阶段分子）",
-        "在 hLILRB2 转基因小鼠 LLC 模型中展示肿瘤生长抑制",
-        "人源化抗体完全保留结合、阻断及生物学活性",
-        "与 PD-1 抑制剂联合治疗潜力"
+      "stages": [
+        "发现期",
+        "临床前",
+        "IND-enabling",
+        "I 期临床",
+        "II 期临床"
+      ],
+      "rows": [
+        {
+          "program": "HP-002",
+          "target": "PRAME/HLA-A*02:01",
+          "indication": "PRAME 阳性实体瘤",
+          "modality": "TCR-CD3 双抗 / TCR-核素偶联",
+          "stage": "临床前",
+          "stageIndex": 2
+        },
+        {
+          "program": "HP-002 (ext)",
+          "target": "MAGE-A4/HLA-A*02:01",
+          "indication": "实体瘤",
+          "modality": "同平台延伸",
+          "stage": "发现期",
+          "stageIndex": 1
+        },
+        {
+          "program": "HP-004",
+          "target": "未公开肿瘤表面抗原",
+          "indication": "实体瘤",
+          "modality": "ADC / 双抗 / RDC",
+          "stage": "临床前",
+          "stageIndex": 2
+        }
       ]
     },
+    "tabs": [
+      "HP-002",
+      "HP-004"
+    ],
     "hp002": {
       "code": "HP-002",
       "stage": "临床前",
@@ -221,7 +343,11 @@
       "title": "靶向胞内肿瘤抗原 PRAME 的可溶性 T 细胞受体（TCR）开发：用于 PRAME 阳性肿瘤的治疗与放射性诊断药物",
       "authors": "梁晓, 薛亚娟, 黄宇君",
       "abstract": "我们建立了专有的 TCR 发现平台，可在不进行亲和力增强的情况下快速鉴定 PRAME₄₂₅ₙ₄₃₃/HLA-A*02:01 特异性 TCR。先导分子 HP-002（KD = 1.08 × 10⁻⁷ M）展示出双重模态开发潜力：作为治疗药物的 TCR-CD3 双特异性 T 细胞衔接器与作为 SPECT/CT 显像的 ¹²⁵I 标记诊断剂。¹²⁵I-PR2-Fc-LALAPG 在 Hs695T 异种移植瘤模型中展现出抗原依赖的肿瘤富集。",
-      "tags": ["TCR 治疗", "SPECT/CT 成像", "PRAME"],
+      "tags": [
+        "TCR 治疗",
+        "SPECT/CT 成像",
+        "PRAME"
+      ],
       "downloadBtn": "下载 PDF",
       "viewPipelineBtn": "查看管线"
     },
