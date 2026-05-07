@@ -45,9 +45,9 @@
           "link": "了解详情 →"
         },
         {
-          "target": "未公开肿瘤表面抗原",
+          "target": "ALPP / ALPPL2",
           "name": "HP-004",
-          "title": "ADC / CD3 双抗 / RDC",
+          "title": "ADC",
           "indication": "实体瘤",
           "stage": "临床前",
           "link": "了解详情 →"
@@ -265,9 +265,9 @@
         },
         {
           "program": "HP-004",
-          "target": "未公开肿瘤表面抗原",
-          "indication": "实体瘤",
-          "modality": "ADC / 双抗 / RDC",
+          "target": "ALPP / ALPPL2",
+          "indication": "实体瘤（卵巢癌、子宫内膜癌、胃癌、非小细胞肺癌）",
+          "modality": "ADC",
           "stage": "临床前",
           "stageIndex": 2
         }
@@ -313,19 +313,23 @@
     "hp004": {
       "code": "HP-004",
       "stage": "临床前",
-      "title": "肿瘤抗原多模态药物平台",
       "facts": [
-        "靶点：未公开肿瘤表面抗原",
-        "形式：ADC / TCE / RDC 平台",
-        "差异化：肿瘤特异性表达，正常组织分布高度受限"
+        "靶点：ALPP / ALPPL2",
+        "形式：抗体偶联药物 (ADC)",
+        "Payload: MMAE (DAR ≈ 4)",
+        "先导分子：HY-X7514"
       ],
-      "desc": "HP-004 靶向一个在肿瘤组织高表达、正常组织表达高度受限（仅在肺和生殖组织中低表达）的肿瘤表面抗原。完成人源化改造的候选分子支持三种平行模态开发：ADC、CD3 双抗与核素偶联。",
+      "title": "靶向 ALPP/ALPPL2 的新型抗体偶联药物（ADC）",
+      "desc": "HP-004 是同时靶向 ALPP 与 ALPPL2 的新型抗体偶联药物（ADC）—— ALPP/ALPPL2 是在卵巢癌、子宫内膜癌、胃癌、非小细胞肺癌等实体瘤中高表达而正常组织表达受限的碱性磷酸酶亚型。HP-004 特异性结合 ALPP/ALPPL2，与同家族 ALPI、ALPL 无交叉反应，最大限度降低脱靶毒性。先导候选分子 HY-X7514 与 MMAE 通过定点偶联，平均 DAR 约为 4。",
       "highlights": [
-        "通过杂交瘤筛选 + 嵌合抗体验证 + 人源化改造获得先导候选分子",
-        "ADC 变体（MMAE / Dxd 载荷）在 NCI-H1651 高表达模型中展示高效肿瘤杀伤",
-        "NCI-H1651 异种移植瘤模型体内药效已验证",
-        "PD-1i 联合治疗潜力评估中"
-      ]
+        "在 ALPP/ALPPL2 高表达肿瘤细胞中 IC₅₀ 约 248 pM",
+        "内化效率优于参考抗体（Seagen）",
+        "在 NCI-H1651 异种移植瘤模型中以 3 mg/kg（每周两次 × 2）剂量实现近完全肿瘤消退",
+        "8 只受试小鼠中 6 只完全肿瘤消退",
+        "在 ALPP/ALPPL2 阳性 / 阴性混合培养模型中显示旁观者杀伤活性"
+      ],
+      "refText": "详细数据在 AACR 2026 年会上展示，海报编号 #6776。",
+      "refDownload": "下载海报 (PDF)"
     },
     "ip": {
       "title": "知识产权",
@@ -338,15 +342,15 @@
     "poster": {
       "venue": "AACR",
       "meeting": "2026 年年会",
-      "number": "海报 #7193",
+      "number": "海报 #6776",
       "type": "会议海报",
-      "title": "靶向胞内肿瘤抗原 PRAME 的可溶性 T 细胞受体（TCR）开发：用于 PRAME 阳性肿瘤的治疗与放射性诊断药物",
-      "authors": "梁晓, 薛亚娟, 黄宇君",
-      "abstract": "我们建立了专有的 TCR 发现平台，可在不进行亲和力增强的情况下快速鉴定 PRAME₄₂₅ₙ₄₃₃/HLA-A*02:01 特异性 TCR。先导分子 HP-002（KD = 1.08 × 10⁻⁷ M）展示出双重模态开发潜力：作为治疗药物的 TCR-CD3 双特异性 T 细胞衔接器与作为 SPECT/CT 显像的 ¹²⁵I 标记诊断剂。¹²⁵I-PR2-Fc-LALAPG 在 Hs695T 异种移植瘤模型中展现出抗原依赖的肿瘤富集。",
+      "title": "HP-004：靶向碱性磷酸酶 ALPP 与 ALPPL2 的新型抗体偶联药物（ADC），用于实体瘤治疗",
+      "authors": "Xiao Liang, Yajuan Xue, Yujun Huang",
+      "abstract": "ALPP 和 ALPPL2 在卵巢癌、子宫内膜癌、胃癌和非小细胞肺癌等多种实体瘤中高表达，正常组织表达高度受限。HP-004 是同时靶向 ALPP/ALPPL2 的新型 ADC，与 MMAE 偶联（DAR ≈ 4），具有高选择性与高效内化能力，IC₅₀ 约 248 pM。在 NCI-H1651 异种移植瘤模型中，HP-004 在 3 mg/kg（每周两次 × 2）剂量下实现近完全肿瘤消退（8 只小鼠中 6 只完全消退）。",
       "tags": [
-        "TCR 治疗",
-        "SPECT/CT 成像",
-        "PRAME"
+        "ADC",
+        "ALPP/ALPPL2",
+        "实体瘤"
       ],
       "downloadBtn": "下载 PDF",
       "viewPipelineBtn": "查看管线"

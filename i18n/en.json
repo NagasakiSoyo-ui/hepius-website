@@ -45,10 +45,10 @@
           "link": "Learn More →"
         },
         {
-          "target": "Undisclosed Tumor Surface Antigen",
+          "target": "ALPP / ALPPL2",
           "name": "HP-004",
-          "title": "ADC / CD3 Bispecific / RDC",
-          "indication": "Solid Tumors",
+          "title": "ADC",
+          "indication": "Solid tumors",
           "stage": "Preclinical",
           "link": "Learn More →"
         }
@@ -265,9 +265,9 @@
         },
         {
           "program": "HP-004",
-          "target": "Undisclosed tumor surface antigen",
-          "indication": "Solid tumors",
-          "modality": "ADC / TCE / RDC",
+          "target": "ALPP / ALPPL2",
+          "indication": "Solid tumors (ovarian, endometrial, gastric, NSCLC)",
+          "modality": "ADC",
           "stage": "Preclinical",
           "stageIndex": 2
         }
@@ -313,19 +313,23 @@
     "hp004": {
       "code": "HP-004",
       "stage": "Preclinical",
-      "title": "Multi-Modality Tumor Surface Antigen Platform",
       "facts": [
-        "Target: Undisclosed tumor surface antigen",
-        "Modality: ADC / TCE / RDC platform",
-        "Differentiation: Tumor-restricted expression, limited normal tissue distribution"
+        "Target: ALPP / ALPPL2",
+        "Modality: Antibody-Drug Conjugate (ADC)",
+        "Payload: MMAE (DAR ≈ 4)",
+        "Lead candidate: HY-X7514"
       ],
-      "desc": "HP-004 targets a tumor surface antigen with high tumor expression and restricted normal tissue distribution (limited to lung and reproductive tissues at low levels). The candidate antibody — fully humanized — supports three parallel modality developments: ADC, CD3 bispecific, and radioconjugate.",
+      "title": "A Novel ADC Targeting ALPP/ALPPL2 in Solid Tumors",
+      "desc": "HP-004 is a novel antibody-drug conjugate dual-targeting ALPP and ALPPL2 — alkaline phosphatase isozymes highly expressed in ovarian, endometrial, gastric, and non-small cell lung cancers, with restricted expression in normal tissues. HP-004 specifically binds ALPP/ALPPL2 without cross-reactivity to ALPI or ALPL, minimizing on-target off-tumor liability. Our lead candidate HY-X7514 is site-specifically conjugated with MMAE at an average DAR of ~4.",
       "highlights": [
-        "Lead candidate identified through hybridoma screening + chimeric antibody validation + humanization",
-        "ADC variants (MMAE / Dxd payloads) demonstrate efficient tumor cell killing in NCI-H1651 high-expression model",
-        "In vivo efficacy validated in NCI-H1651 xenograft tumor model",
-        "PD-1i combination potential under evaluation"
-      ]
+        "IC₅₀ ~248 pM in ALPP/ALPPL2-overexpressing tumor cell lines",
+        "Enhanced internalization efficiency over reference antibodies (Seagen)",
+        "Near-complete tumor regression at 3 mg/kg (BiW × 2) in NCI-H1651 xenograft model",
+        "Complete tumor regression in 6 of 8 treated mice",
+        "Bystander killing activity in ALPP/ALPPL2-positive / ALPP/ALPPL2-negative co-culture models"
+      ],
+      "refText": "Detailed data presented at AACR Annual Meeting 2026, Poster #6776.",
+      "refDownload": "Download Poster (PDF)"
     },
     "ip": {
       "title": "Intellectual Property",
@@ -338,15 +342,15 @@
     "poster": {
       "venue": "AACR",
       "meeting": "Annual Meeting 2026",
-      "number": "Poster #7193",
+      "number": "Poster #6776",
       "type": "Conference Poster",
-      "title": "Utilize a Soluble T-cell Receptor TCR Targeting Tumor Intracellular Antigen PRAME to Develop Therapeutic and Radioactive Diagnostic Agents for PRAME-positive Tumors",
+      "title": "HP004, a Novel Antibody-Drug Conjugate Targeting Alkaline Phosphatases ALPP and ALPPL2 in Solid Tumors",
       "authors": "Xiao Liang, Yajuan Xue, Yujun Huang",
-      "abstract": "We established a proprietary TCR discovery platform for rapid identification of PRAME₄₂₅ₙ₄₃₃/HLA-A*02:01-specific TCRs without affinity enhancement. The lead candidate HP-002 (KD = 1.08 × 10⁻⁷ M) demonstrates dual-modality potential: TCR-CD3 bispecific T-cell engagers for therapy and ¹²⁵I-labeled radiotracers for SPECT/CT diagnostics. ¹²⁵I-PR2-Fc-LALAPG showed antigen-dependent tumor accumulation in Hs695T xenograft models.",
+      "abstract": "ALPP and ALPPL2 are highly expressed in ovarian, endometrial, gastric, and non-small cell lung cancers, with restricted expression in normal tissues. HP-004 is a novel ADC dual-targeting ALPP/ALPPL2, conjugated with MMAE at an average DAR of ~4, demonstrating high selectivity and enhanced internalization with an IC₅₀ of ~248 pM. In the NCI-H1651 xenograft lung cancer model, HP-004 achieved near-complete tumor regression at 3 mg/kg (BiW × 2), with complete tumor regression in 6 of 8 mice.",
       "tags": [
-        "TCR Therapy",
-        "SPECT/CT Imaging",
-        "PRAME"
+        "ADC",
+        "ALPP/ALPPL2",
+        "Solid Tumors"
       ],
       "downloadBtn": "Download PDF",
       "viewPipelineBtn": "View Pipeline"

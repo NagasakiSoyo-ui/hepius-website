@@ -135,9 +135,9 @@
             <!-- HP-004 -->
             <tr>
               <td class="py-4 pr-6 font-bold text-accent">HP-004</td>
-              <td class="py-4 pr-6 text-primary" data-i18n="pipeline.table.rows.2.target">Undisclosed tumor surface antigen</td>
-              <td class="py-4 pr-6 text-primary-light" data-i18n="pipeline.table.rows.2.indication">Solid tumors</td>
-              <td class="py-4 pr-6 text-primary-light" data-i18n="pipeline.table.rows.2.modality">ADC / TCE / RDC</td>
+              <td class="py-4 pr-6 text-primary" data-i18n="pipeline.table.rows.2.target">ALPP / ALPPL2</td>
+              <td class="py-4 pr-6 text-primary-light" data-i18n="pipeline.table.rows.2.indication">Solid tumors (ovarian, endometrial, gastric, NSCLC)</td>
+              <td class="py-4 pr-6 text-primary-light" data-i18n="pipeline.table.rows.2.modality">ADC</td>
               <td class="py-4">
                 <div class="flex items-center gap-1.5">
                   <span class="block w-2.5 h-2.5 rounded-full bg-accent"></span>
@@ -215,9 +215,9 @@
             <span class="text-[11px] font-medium px-2.5 py-1 rounded-full bg-white text-primary-light" data-i18n="pipeline.table.rows.2.stage">Preclinical</span>
           </div>
           <div class="space-y-2 text-sm">
-            <p><span class="text-primary-light">Target:</span> <span class="text-primary font-medium" data-i18n="pipeline.table.rows.2.target">Undisclosed tumor surface antigen</span></p>
-            <p><span class="text-primary-light">Indication:</span> <span class="text-primary font-medium" data-i18n="pipeline.table.rows.2.indication">Solid tumors</span></p>
-            <p><span class="text-primary-light">Modality:</span> <span class="text-primary font-medium" data-i18n="pipeline.table.rows.2.modality">ADC / TCE / RDC</span></p>
+            <p><span class="text-primary-light">Target:</span> <span class="text-primary font-medium" data-i18n="pipeline.table.rows.2.target">ALPP / ALPPL2</span></p>
+            <p><span class="text-primary-light">Indication:</span> <span class="text-primary font-medium" data-i18n="pipeline.table.rows.2.indication">Solid tumors (ovarian, endometrial, gastric, NSCLC)</span></p>
+            <p><span class="text-primary-light">Modality:</span> <span class="text-primary font-medium" data-i18n="pipeline.table.rows.2.modality">ADC</span></p>
           </div>
           <div class="mt-3 flex items-center gap-1.5">
             <span class="block w-2.5 h-2.5 rounded-full bg-accent"></span><span class="block w-2.5 h-2.5 rounded-full bg-accent"></span><span class="block w-2.5 h-2.5 rounded-full border-2 border-gray-300"></span><span class="block w-2.5 h-2.5 rounded-full border-2 border-gray-300"></span><span class="block w-2.5 h-2.5 rounded-full border-2 border-gray-300"></span>
@@ -331,39 +331,54 @@
     <section id="hp-004" class="scroll-mt-32">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-16">
+          <!-- Left rail -->
           <div class="lg:col-span-1">
             <span class="font-mono text-3xl font-bold text-accent" data-i18n="pipeline.hp004.code">HP-004</span>
             <span class="mt-3 inline-block text-[11px] font-medium px-3 py-1 rounded-full bg-surface text-primary-light" data-i18n="pipeline.hp004.stage">Preclinical</span>
             <ul class="mt-8 space-y-3 text-sm text-primary-light">
-              <li data-i18n="pipeline.hp004.facts.0">Target: Undisclosed tumor surface antigen</li>
-              <li data-i18n="pipeline.hp004.facts.1">Modality: ADC / TCE / RDC platform</li>
-              <li data-i18n="pipeline.hp004.facts.2">Differentiation: Tumor-restricted expression, limited normal tissue distribution</li>
+              <li data-i18n="pipeline.hp004.facts.0">Target: ALPP / ALPPL2</li>
+              <li data-i18n="pipeline.hp004.facts.1">Modality: Antibody-Drug Conjugate (ADC)</li>
+              <li data-i18n="pipeline.hp004.facts.2">Payload: MMAE (DAR ≈ 4)</li>
+              <li data-i18n="pipeline.hp004.facts.3">Lead candidate: HY-X7514</li>
             </ul>
           </div>
+          <!-- Right content -->
           <div class="lg:col-span-2">
-            <h2 class="text-2xl sm:text-3xl font-bold text-primary" data-i18n="pipeline.hp004.title">Multi-Modality Tumor Surface Antigen Platform</h2>
+            <h2 class="text-2xl sm:text-3xl font-bold text-primary" data-i18n="pipeline.hp004.title">A Novel ADC Targeting ALPP/ALPPL2 in Solid Tumors</h2>
             <p class="mt-5 text-base text-primary-light leading-relaxed" data-i18n="pipeline.hp004.desc">
-              HP-004 targets a tumor surface antigen with high tumor expression and restricted normal tissue distribution (limited to lung and reproductive tissues at low levels). The candidate antibody — fully humanized — supports three parallel modality developments: ADC, CD3 bispecific, and radioconjugate.
+              HP-004 is a novel antibody-drug conjugate dual-targeting ALPP and ALPPL2 — alkaline phosphatase isozymes highly expressed in ovarian, endometrial, gastric, and non-small cell lung cancers, with restricted expression in normal tissues. HP-004 specifically binds ALPP/ALPPL2 without cross-reactivity to ALPI or ALPL, minimizing on-target off-tumor liability. Our lead candidate HY-X7514 is site-specifically conjugated with MMAE at an average DAR of ~4.
             </p>
             <ul class="mt-6 space-y-2.5">
               <li class="flex gap-2 text-sm text-primary-light">
                 <span class="text-accent flex-shrink-0">—</span>
-                <span data-i18n="pipeline.hp004.highlights.0">Lead candidate identified through hybridoma screening + chimeric antibody validation + humanization</span>
+                <span data-i18n="pipeline.hp004.highlights.0">IC₅₀ ~248 pM in ALPP/ALPPL2-overexpressing tumor cell lines</span>
               </li>
               <li class="flex gap-2 text-sm text-primary-light">
                 <span class="text-accent flex-shrink-0">—</span>
-                <span data-i18n="pipeline.hp004.highlights.1">ADC variants (MMAE / Dxd payloads) demonstrate efficient tumor cell killing in NCI-H1651 high-expression model</span>
+                <span data-i18n="pipeline.hp004.highlights.1">Enhanced internalization efficiency over reference antibodies (Seagen)</span>
               </li>
               <li class="flex gap-2 text-sm text-primary-light">
                 <span class="text-accent flex-shrink-0">—</span>
-                <span data-i18n="pipeline.hp004.highlights.2">In vivo efficacy validated in NCI-H1651 xenograft tumor model</span>
+                <span data-i18n="pipeline.hp004.highlights.2">Near-complete tumor regression at 3 mg/kg (BiW × 2) in NCI-H1651 xenograft model</span>
               </li>
               <li class="flex gap-2 text-sm text-primary-light">
                 <span class="text-accent flex-shrink-0">—</span>
-                <span data-i18n="pipeline.hp004.highlights.3">PD-1i combination potential under evaluation</span>
+                <span data-i18n="pipeline.hp004.highlights.3">Complete tumor regression in 6 of 8 treated mice</span>
+              </li>
+              <li class="flex gap-2 text-sm text-primary-light">
+                <span class="text-accent flex-shrink-0">—</span>
+                <span data-i18n="pipeline.hp004.highlights.4">Bystander killing activity in ALPP/ALPPL2-positive / ALPP/ALPPL2-negative co-culture models</span>
               </li>
             </ul>
           </div>
+        </div>
+        <!-- Reference Footer -->
+        <div class="mt-12 pt-8 border-t border-gray-200">
+          <p class="text-sm text-primary-light" data-i18n="pipeline.hp004.refText">Detailed data presented at AACR Annual Meeting 2026, Poster #6776.</p>
+          <a href="assets/posters/Hepius_AACR2026_Poster_6776_HP-004-ADC.pdf" download class="mt-4 inline-flex items-center gap-2 px-5 py-2.5 text-sm font-semibold text-accent border border-accent rounded-full hover:bg-accent hover:text-white transition-colors">
+            <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path d="M12 5v14m0 0-5-5m5 5 5-5M5 19h14"/></svg>
+            <span data-i18n="pipeline.hp004.refDownload">Download Poster (PDF)</span>
+          </a>
         </div>
       </div>
     </section>
