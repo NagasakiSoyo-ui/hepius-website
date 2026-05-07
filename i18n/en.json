@@ -63,9 +63,9 @@
       "members": [
         { "name": "Xuwen Chen", "role": "Co-founder, Operations &amp; Strategic Resources", "expertise": "20 years of experience in biotech management and clinical resource collaboration", "education": "MB, Shanghai Medical College of Fudan University" },
         { "name": "Yurong Li", "role": "Co-founder, Investment &amp; Operations", "expertise": "Investment management and corporate finance expertise", "education": "BS in Mathematics &amp; Economics, UC San Diego" },
-        { "name": "Xiao Liang, PhD", "role": "Antibody Discovery &amp; Engineering", "expertise": "Antibody screening, optimization, developability, and IP strategy", "education": "PhD, Tsinghua University" },
-        { "name": "Xu Zhang, PhD", "role": "Antibody Humanization &amp; Immunogenomics", "expertise": "Humanized antibody engineering; NGS-based adaptive immune repertoire sequencing pipelines", "education": "PhD, Second Military Medical University" },
-        { "name": "Tiancheng Zhang, PhD", "role": "Proteomics &amp; Biomarker Discovery", "expertise": "Plasma biomarker discovery in ovarian/cervical cancer via precision proteomics", "education": "PhD, Chinese Academy of Sciences" },
+        { "name": "Xiao Liang, PhD", "role": "Antibody Discovery &amp; Engineering", "expertise": "Antibody screening, optimization, developability, and IP strategy", "education": "PhD, Chinese Academy of Sciences" },
+        { "name": "Xu Zhang, PhD", "role": "Antibody Humanization &amp; Immunogenomics", "expertise": "Humanized antibody engineering; NGS-based adaptive immune repertoire sequencing pipelines", "education": "PhD, Tsinghua University" },
+        { "name": "Tiancheng Zhang, PhD", "role": "Proteomics &amp; Biomarker Discovery", "expertise": "Plasma biomarker discovery in ovarian/cervical cancer via precision proteomics", "education": "PhD, Second Military Medical University" },
         { "name": "Rongrong Gao, PhD", "role": "Tumor Immunology, TIL &amp; TCR", "expertise": "TIL/TCR research in tumor immunology", "education": "PhD, Fudan University" }
       ]
     }
