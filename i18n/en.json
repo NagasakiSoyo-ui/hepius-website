@@ -90,46 +90,24 @@
       ],
       "education": "MD, Fudan University &middot; PhD in Tumor Immunology, Loyola University Chicago"
     },
-    "team": {
-      "sectionTitle": "Co-founders &amp; Team",
-      "cofoundersTitle": "Co-founders",
-      "rdTitle": "R&D Team",
-      "members": [
+    "whyHepius": {
+      "sectionTitle": "Why Hepius",
+      "cards": [
         {
-          "name": "Xuwen Chen",
-          "role": "Co-founder, Operations &amp; Strategic Resources",
-          "expertise": "20 years of experience in biotech management and clinical resource collaboration",
-          "education": "MB, Shanghai Medical College of Fudan University"
+          "title": "Senior Immuno-Oncology Leadership",
+          "desc": "Our founder, Dr. Yujun Huang, brings 20+ years of immuno-oncology experience from AbbVie, OncoMed, and Plexium, where he led translational medicine and early development across multiple programs."
         },
         {
-          "name": "Yurong Li",
-          "role": "Co-founder, Investment &amp; Operations",
-          "expertise": "Investment management and corporate finance expertise",
-          "education": "BS in Mathematics &amp; Economics, UC San Diego"
+          "title": "Patient-Centric Reverse Translational Platform",
+          "desc": "We start from patient samples in PD-1i resistant / refractory cohorts to identify resistance mechanisms and validate targets — ensuring candidates are biologically relevant to the populations most likely to respond."
         },
         {
-          "name": "Xiao Liang, PhD",
-          "role": "Antibody Discovery &amp; Engineering",
-          "expertise": "Antibody screening, optimization, developability, and IP strategy",
-          "education": "PhD, Chinese Academy of Sciences"
+          "title": "Multi-Modality Capabilities",
+          "desc": "In-house capabilities spanning antibodies, TCR-CD3 bispecific T-cell engagers, TCR radioconjugates (RDC), and antibody-drug conjugates (ADC) — enabling the optimal modality for each target."
         },
         {
-          "name": "Xu Zhang, PhD",
-          "role": "Antibody Humanization &amp; Immunogenomics",
-          "expertise": "Humanized antibody engineering; NGS-based adaptive immune repertoire sequencing pipelines",
-          "education": "PhD, Tsinghua University"
-        },
-        {
-          "name": "Tiancheng Zhang, PhD",
-          "role": "Proteomics &amp; Biomarker Discovery",
-          "expertise": "Plasma biomarker discovery in ovarian/cervical cancer via precision proteomics",
-          "education": "PhD, Second Military Medical University"
-        },
-        {
-          "name": "Rongrong Gao, PhD",
-          "role": "Tumor Immunology, TIL &amp; TCR",
-          "expertise": "TIL/TCR research in tumor immunology",
-          "education": "PhD, Fudan University"
+          "title": "A Diversified Preclinical Pipeline",
+          "desc": "HP-001, HP-002, and HP-004 advance in parallel, supported by multiple invention patents filed in China and the US covering core programs and platform technologies."
         }
       ]
     }
