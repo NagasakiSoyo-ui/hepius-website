@@ -25,7 +25,7 @@
         },
         {
           "title": "TCR Discovery & Engineering",
-          "desc": "A 4-week efficient TCR discovery workflow, combined with proprietary soluble TCR expression and cell-based affinity screening, enabling targeting of intracellular antigens."
+          "desc": "A 4–8-week TCR discovery workflow, combined with proprietary soluble TCR expression and cell-based affinity screening, enabling targeting of intracellular antigens."
         },
         {
           "title": "Multi-Modality Therapeutics",
@@ -37,6 +37,14 @@
       "sectionTitle": "Pipeline",
       "cards": [
         {
+          "target": "Immunosuppression pathway · PD-1i combo",
+          "name": "HP-001",
+          "title": "Humanized Monoclonal Antibody",
+          "indication": "Solid tumors, PD-1i combination",
+          "stage": "Preclinical",
+          "link": "Learn More →"
+        },
+        {
           "target": "PRAME/HLA-A*02:01",
           "name": "HP-002",
           "title": "TCR-CD3 Bispecific / TCR-Radioconjugate",
@@ -47,7 +55,7 @@
         {
           "target": "ALPP / ALPPL2",
           "name": "HP-004",
-          "title": "ADC",
+          "title": "ADC + Bispecific TCE Platform",
           "indication": "Solid tumors",
           "stage": "Preclinical",
           "link": "Learn More →"
@@ -60,7 +68,11 @@
     "pageTitle": "About",
     "mission": "While PD-1 inhibitors have transformed cancer treatment, many patients remain unresponsive or develop resistance. Hepius Therapeutics is built on a reverse translational medicine platform that starts from patient data — identifying resistance mechanisms and novel targets to develop next-generation precision immuno-oncology therapeutics for unmet clinical needs.",
     "overview": {
+      "legalEntityLabel": "Legal Entity",
+      "legalEntity": "Suzhou Hepius Therapeutics Co., Ltd.",
+      "foundedLabel": "Founded",
       "founded": "Founded June 2023",
+      "locationsLabel": "Locations",
       "locations": "Suzhou, China &amp; San Diego, USA",
       "approachLabel": "Our Approach",
       "approachTitle": "A Collaborative Development Model",
@@ -145,43 +157,12 @@
         ]
       }
     },
-    "equipment": {
-      "title": "Core Equipment",
-      "subtitle": "Our discovery and characterization workflows are powered by industry-standard instrumentation.",
-      "items": [
-        {
-          "name": "BD LSR Fortessa Flow Cytometer",
-          "nameZh": "BD LSR Fortessa 流式细胞仪",
-          "desc": "3-laser 14-color flow cytometry"
-        },
-        {
-          "name": "Perkin Elmer Multiplex IHC (Phenoptics)",
-          "nameZh": "Perkin Elmer 多重免疫组化",
-          "desc": "Quantitative pathology platform"
-        },
-        {
-          "name": "Nikon A1R Confocal + STORM Super-Resolution",
-          "nameZh": "尼康 A1R 共聚焦 + STORM 超分辨",
-          "desc": "Super-resolution microscopy"
-        },
-        {
-          "name": "Lumina XRMS In Vivo Imaging System",
-          "nameZh": "Lumina XRMS 小动物活体成像仪",
-          "desc": "Small-animal bioluminescence &amp; fluorescence"
-        },
-        {
-          "name": "LightCycler 480II qPCR",
-          "nameZh": "LightCycler 480II 荧光定量 PCR",
-          "desc": "Real-time quantitative PCR"
-        }
-      ]
-    },
     "tech": {
       "title": "Proprietary Technologies",
       "cards": [
         {
-          "title": "4-Week TCR Discovery Pipeline",
-          "desc": "Identification of antigen-specific native TCRs from PBMCs/TILs within four weeks via tetramer staining, FACS sorting, and 10X single-cell sequencing."
+          "title": "4–8-Week TCR Discovery Pipeline",
+          "desc": "Identification of antigen-specific native TCRs from PBMCs/TILs within four to eight weeks via tetramer staining, FACS sorting, and 10X single-cell sequencing."
         },
         {
           "title": "Soluble TCR Expression",
@@ -198,31 +179,31 @@
       ]
     },
     "workflow": {
-      "title": "4-Week TCR Discovery Workflow",
+      "title": "4–8-Week TCR Discovery Workflow",
       "steps": [
         {
           "title": "PBMC Stimulation",
-          "duration": "10 days",
+          "duration": "5 days",
           "desc": "Antigen peptide stimulation of PBMCs/TILs"
         },
         {
           "title": "IFNγ + Tetramer Detection",
-          "duration": "5 days",
+          "duration": "3 days",
           "desc": "Identify antigen-specific T-cell populations"
         },
         {
           "title": "FACS Sorting & 10X scRNA-seq",
-          "duration": "28 days",
+          "duration": "14 days",
           "desc": "Single-cell sorting and TCR sequencing"
         },
         {
           "title": "Lentivirus Construction",
-          "duration": "24 days",
+          "duration": "10 days",
           "desc": "Package TCR into lentiviral vectors"
         },
         {
           "title": "Validation & Flow Cytometry",
-          "duration": "16 days",
+          "duration": "8 days",
           "desc": "Confirm TCR specificity via transduction"
         }
       ]
@@ -247,6 +228,14 @@
         "Phase II"
       ],
       "rows": [
+        {
+          "program": "HP-001",
+          "target": "Undisclosed",
+          "indication": "Solid tumors (PD-1i combination)",
+          "modality": "Humanized monoclonal antibody",
+          "stage": "Preclinical",
+          "stageIndex": 2
+        },
         {
           "program": "HP-002",
           "target": "PRAME/HLA-A*02:01",
@@ -274,12 +263,34 @@
       ]
     },
     "tabs": [
+      "HP-001",
       "HP-002",
       "HP-004"
     ],
+    "hp001": {
+      "code": "HP-001",
+      "stage": "Preclinical",
+      "title": "A Differentiated Monoclonal Antibody for Combination with PD-1 Inhibitors",
+      "facts": [
+        "Modality: Humanized monoclonal antibody",
+        "Target: Undisclosed",
+        "Combination: PD-1 inhibitor",
+        "Stage: Preclinical candidate (PCC)"
+      ],
+      "desc": "HP-001 is a humanized monoclonal antibody directed against a novel immunosuppressive pathway, designed for combination use with PD-1 inhibitors to broaden the population of patients benefiting from immune checkpoint therapy. Informed by insights from Hepius's reverse translational platform — which characterizes resistance mechanisms in patients exposed to PD-1 blockade — HP-001 carries a differentiated scientific rationale and positioning. The lead candidate has completed antibody discovery, humanization, and in vitro / in vivo activity evaluation, and is advancing through preclinical candidate (PCC) work.",
+      "highlightsTitle": "Program Highlights",
+      "highlights": [
+        "Humanized monoclonal antibody against a novel immunosuppressive pathway",
+        "Designed for combination with PD-1 inhibitors in PD-1i resistant / refractory solid tumors",
+        "Antibody discovery, humanization, and in vitro / in vivo efficacy completed",
+        "Differentiated scientific rationale and positioning"
+      ],
+      "ctaText": "Request more information via BD"
+    },
     "hp002": {
       "code": "HP-002",
       "stage": "Preclinical",
+      "ficLabel": "Potentially First-in-Class",
       "title": "PRAME TCR Platform: Dual Modality Therapy & Diagnostics",
       "facts": [
         "Target: PRAME₄₂₅₋₄₃₃/HLA-A*02:01",
@@ -316,11 +327,11 @@
       "facts": [
         "Target: ALPP / ALPPL2",
         "Modality: Antibody-Drug Conjugate (ADC)",
-        "Payload: MMAE (DAR ≈ 4)",
+        "Platform: ADC + bispecific TCE modalities",
         "Lead candidate: HY-X7514"
       ],
-      "title": "A Novel ADC Targeting ALPP/ALPPL2 in Solid Tumors",
-      "desc": "HP-004 is a novel antibody-drug conjugate dual-targeting ALPP and ALPPL2 — alkaline phosphatase isozymes highly expressed in ovarian, endometrial, gastric, and non-small cell lung cancers, with restricted expression in normal tissues. HP-004 specifically binds ALPP/ALPPL2 without cross-reactivity to ALPI or ALPL, minimizing on-target off-tumor liability. Our lead candidate HY-X7514 is site-specifically conjugated with MMAE at an average DAR of ~4.",
+      "title": "A Dual-Modality Platform Targeting ALPP/ALPPL2 (ADC + TCE)",
+      "desc": "HP-004 is a platform spanning antibody-drug conjugate (ADC) and bispecific T-cell engager (TCE) modalities, targeting ALPP and ALPPL2 — alkaline phosphatase isozymes highly expressed in ovarian, endometrial, gastric, and non-small cell lung cancers, with restricted expression in normal tissues. HP-004 antibodies specifically bind ALPP/ALPPL2 without cross-reactivity to ALPI or ALPL, minimizing on-target off-tumor liability. Lead candidate: HY-X7514 (data presented at AACR 2026).",
       "highlights": [
         "IC₅₀ ~248 pM in ALPP/ALPPL2-overexpressing tumor cell lines",
         "Enhanced internalization efficiency over reference antibodies (Seagen)",
@@ -333,28 +344,48 @@
     },
     "ip": {
       "title": "Intellectual Property",
-      "desc": "Hepius has filed multiple patents in China and the US covering its core programs and platform technologies. Detailed IP information available upon request through BD."
+      "desc": "Hepius has filed multiple invention patents (China + US) covering its core programs and platform technologies. Detailed IP information available upon request through BD."
     }
   },
   "publications": {
     "pageTitle": "Publications &amp; Presentations",
     "pageSubtitle": "Peer-reviewed presentations of our scientific progress.",
-    "poster": {
-      "venue": "AACR",
-      "meeting": "Annual Meeting 2026",
-      "number": "Poster #6776",
-      "type": "Conference Poster",
-      "title": "HP004, a Novel Antibody-Drug Conjugate Targeting Alkaline Phosphatases ALPP and ALPPL2 in Solid Tumors",
-      "authors": "Xiao Liang, Yajuan Xue, Yujun Huang",
-      "abstract": "ALPP and ALPPL2 are highly expressed in ovarian, endometrial, gastric, and non-small cell lung cancers, with restricted expression in normal tissues. HP-004 is a novel ADC dual-targeting ALPP/ALPPL2, conjugated with MMAE at an average DAR of ~4, demonstrating high selectivity and enhanced internalization with an IC₅₀ of ~248 pM. In the NCI-H1651 xenograft lung cancer model, HP-004 achieved near-complete tumor regression at 3 mg/kg (BiW × 2), with complete tumor regression in 6 of 8 mice.",
-      "tags": [
-        "ADC",
-        "ALPP/ALPPL2",
-        "Solid Tumors"
-      ],
-      "downloadBtn": "Download PDF",
-      "viewPipelineBtn": "View Pipeline"
-    },
+    "downloadBtn": "Download PDF",
+    "viewPipelineBtn": "View Pipeline",
+    "posters": [
+      {
+        "venue": "AACR",
+        "meeting": "Annual Meeting 2026",
+        "number": "Poster #7193",
+        "type": "Conference Poster",
+        "title": "Utilize a Soluble T-cell Receptor (TCR) Targeting Tumor Intracellular Antigen PRAME to Develop Therapeutic and Radioactive Diagnostic Agents for PRAME-positive Tumors",
+        "authors": "Xiao Liang, Yajuan Xue, Yujun Huang",
+        "abstract": "We established a proprietary TCR discovery platform for rapid identification of PRAME₄₂₅₋₄₃₃/HLA-A*02:01-specific TCRs without affinity enhancement. The lead candidate HP-002 (KD = 1.08 × 10⁻⁷ M) demonstrates dual-modality potential: TCR-CD3 bispecific T-cell engagers for therapy and ¹²⁵I-labeled radiotracers for SPECT/CT diagnostics. ¹²⁵I-PR2-Fc-LALAPG showed antigen-dependent tumor accumulation in Hs695T xenograft models.",
+        "tags": [
+          "TCR Therapy",
+          "SPECT/CT Imaging",
+          "PRAME"
+        ],
+        "pdfHref": "assets/posters/Hepius_AACR2026_Poster_7193_PRAME-TCR.pdf",
+        "pipelineHref": "pipeline.html#hp-002"
+      },
+      {
+        "venue": "AACR",
+        "meeting": "Annual Meeting 2026",
+        "number": "Poster #6776",
+        "type": "Conference Poster",
+        "title": "HP004, a Novel Antibody-Drug Conjugate Targeting Alkaline Phosphatases ALPP and ALPPL2 in Solid Tumors",
+        "authors": "Xiao Liang, Yajuan Xue, Yujun Huang",
+        "abstract": "ALPP and ALPPL2 are highly expressed in ovarian, endometrial, gastric, and non-small cell lung cancers, with restricted expression in normal tissues. HP-004 is a novel ADC dual-targeting ALPP/ALPPL2, conjugated with MMAE at an average DAR of ~4, demonstrating high selectivity and enhanced internalization with an IC₅₀ of ~248 pM. In the NCI-H1651 xenograft lung cancer model, HP-004 achieved near-complete tumor regression at 3 mg/kg (BiW × 2), with complete tumor regression in 6 of 8 mice.",
+        "tags": [
+          "ADC",
+          "ALPP/ALPPL2",
+          "Solid Tumors"
+        ],
+        "pdfHref": "assets/posters/Hepius_AACR2026_Poster_6776_HP-004-ADC.pdf",
+        "pipelineHref": "pipeline.html#hp-004"
+      }
+    ],
     "comingSoon": "More publications and presentations to follow."
   },
   "contact": {
@@ -391,7 +422,7 @@
     "contactHeading": "Contact",
     "bdEmail": "BD@hepiustherapeutics.com",
     "academicEmail": "yhuang@hepiustherapeutics.com",
-    "copyright": "© 2025 Hepius Therapeutics. All rights reserved."
+    "copyright": "© 2025 Suzhou Hepius Therapeutics Co., Ltd. All rights reserved."
   },
   "news": {
     "placeholder": "We will share company milestones, partnerships, and scientific highlights here. Stay tuned.",

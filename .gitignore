@@ -8,25 +8,25 @@ desktop.ini
 .idea/
 *.swp
 
-# 机密资料 — 严禁提交（同时匹配空格和下划线文件名）
+# 机密资料 — 严禁提交
 PROJECT_BRIEF.md
-*Business*Plan*.pptx
-*Business*Plan*.pdf
-HP002*Poster*final*.pdf
-HP002*TCR*Poster*final*.pdf
+.bp_text.txt
 *.bak
 
 # Logo 设计源文件（已重命名为 logo.png 使用）
 未标题-*.png
 
-# 通配防御：所有 pptx 都不传
+# 通配防御：所有 pptx / pdf 默认不传
 *.pptx
+*.pdf
 
 # Node / 构建产物
 node_modules/
 dist/
 build/
 
-# 但保留对外发布的 AACR Poster
-!assets/posters/Hepius_AACR2026_Poster_7193_PRAME-TCR.pdf
+# 例外：对外发布的 AACR Poster（明确白名单）
+!assets/posters/*.pdf
+
 .claude/
+.scripts/

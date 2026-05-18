@@ -25,7 +25,7 @@
         },
         {
           "title": "TCR 发现与工程平台",
-          "desc": "4 周高效 TCR 发现流程，结合天然 TCR 可溶性表达与专利亲和力筛选平台，实现胞内抗原靶向。"
+          "desc": "4-8 周高效 TCR 发现流程，结合天然 TCR 可溶性表达与专利亲和力筛选平台，实现胞内抗原靶向。"
         },
         {
           "title": "多模态治疗开发",
@@ -37,6 +37,14 @@
       "sectionTitle": "研发管线",
       "cards": [
         {
+          "target": "免疫抑制通路 · PD-1i 联用",
+          "name": "HP-001",
+          "title": "人源化单克隆抗体",
+          "indication": "实体瘤，PD-1i 联用",
+          "stage": "临床前",
+          "link": "了解详情 →"
+        },
+        {
           "target": "PRAME/HLA-A*02:01",
           "name": "HP-002",
           "title": "TCR-CD3 双抗 / TCR-核素偶联",
@@ -47,7 +55,7 @@
         {
           "target": "ALPP / ALPPL2",
           "name": "HP-004",
-          "title": "ADC",
+          "title": "ADC + 双特异性 TCE 平台",
           "indication": "实体瘤",
           "stage": "临床前",
           "link": "了解详情 →"
@@ -60,7 +68,11 @@
     "pageTitle": "关于我们",
     "mission": "PD-1 抑制剂改变了肿瘤治疗格局，但仍有大量患者对现有免疫疗法无响应或产生耐药。赫匹欧斯生物科技以反向转化医学为核心，从临床患者数据出发，识别耐药机制和新靶点，开发针对未满足临床需求的下一代精准免疫治疗药物。",
     "overview": {
+      "legalEntityLabel": "运营主体",
+      "legalEntity": "苏州赫匹欧斯生物科技有限公司",
+      "foundedLabel": "成立时间",
       "founded": "2023 年 6 月成立",
+      "locationsLabel": "所在地",
       "locations": "中国苏州 &amp; 美国圣地亚哥",
       "approachLabel": "我们的方法",
       "approachTitle": "协作驱动的开发模式",
@@ -145,43 +157,12 @@
         ]
       }
     },
-    "equipment": {
-      "title": "核心设备",
-      "subtitle": "我们的药物发现与表征工作流由行业标准仪器支持。",
-      "items": [
-        {
-          "name": "BD LSR Fortessa 流式细胞仪",
-          "nameZh": "BD LSR Fortessa Flow Cytometer",
-          "desc": "3 激光 14 色流式分析"
-        },
-        {
-          "name": "Perkin Elmer 多重免疫组化 (Phenoptics)",
-          "nameZh": "Perkin Elmer Multiplex IHC (Phenoptics)",
-          "desc": "定量病理平台"
-        },
-        {
-          "name": "尼康 A1R 共聚焦 + STORM 超分辨显微镜",
-          "nameZh": "Nikon A1R Confocal + STORM",
-          "desc": "超分辨显微系统"
-        },
-        {
-          "name": "Lumina XRMS 小动物活体成像仪",
-          "nameZh": "Lumina XRMS In Vivo Imaging",
-          "desc": "小动物活体生物发光与荧光成像"
-        },
-        {
-          "name": "LightCycler 480II 荧光定量 PCR 仪",
-          "nameZh": "LightCycler 480II qPCR",
-          "desc": "实时荧光定量 PCR"
-        }
-      ]
-    },
     "tech": {
       "title": "专有技术",
       "cards": [
         {
-          "title": "4 周 TCR 发现流程",
-          "desc": "通过四聚体染色、流式分选和 10X 单细胞测序，4 周内从 PBMC/TIL 鉴定抗原特异性的天然 TCR。"
+          "title": "4-8 周 TCR 发现流程",
+          "desc": "通过四聚体染色、流式分选和 10X 单细胞测序，4-8 周内从 PBMC/TIL 鉴定抗原特异性的天然 TCR。"
         },
         {
           "title": "天然 TCR 可溶性表达",
@@ -198,31 +179,31 @@
       ]
     },
     "workflow": {
-      "title": "4 周 TCR 发现流程",
+      "title": "4-8 周 TCR 发现流程",
       "steps": [
         {
           "title": "PBMC 抗原肽刺激",
-          "duration": "10 天",
+          "duration": "5 天",
           "desc": "抗原肽刺激 PBMC/TIL"
         },
         {
           "title": "IFNγ 及四聚体检测",
-          "duration": "5 天",
+          "duration": "3 天",
           "desc": "识别抗原特异性 T 细胞群体"
         },
         {
           "title": "流式分选与 10X 单细胞测序",
-          "duration": "28 天",
+          "duration": "14 天",
           "desc": "单细胞分选与 TCR 测序"
         },
         {
           "title": "慢病毒构建",
-          "duration": "24 天",
+          "duration": "10 天",
           "desc": "将 TCR 装入慢病毒载体"
         },
         {
           "title": "转染验证与流式检测",
-          "duration": "16 天",
+          "duration": "8 天",
           "desc": "通过转染确认 TCR 特异性"
         }
       ]
@@ -247,6 +228,14 @@
         "II 期临床"
       ],
       "rows": [
+        {
+          "program": "HP-001",
+          "target": "暂未披露",
+          "indication": "实体瘤（与 PD-1i 联用）",
+          "modality": "人源化单克隆抗体",
+          "stage": "临床前",
+          "stageIndex": 2
+        },
         {
           "program": "HP-002",
           "target": "PRAME/HLA-A*02:01",
@@ -274,12 +263,34 @@
       ]
     },
     "tabs": [
+      "HP-001",
       "HP-002",
       "HP-004"
     ],
+    "hp001": {
+      "code": "HP-001",
+      "stage": "临床前",
+      "title": "与 PD-1 抑制剂联用的差异化单抗",
+      "facts": [
+        "形式：人源化单克隆抗体",
+        "靶点：暂未披露",
+        "联用：PD-1 抑制剂",
+        "阶段：临床前候选 (PCC)"
+      ],
+      "desc": "HP-001 是一款针对新型免疫抑制通路的人源化单克隆抗体，旨在与 PD-1 抑制剂联合使用，扩大免疫检查点疗法的获益人群。基于赫匹欧斯反向转化平台对 PD-1i 耐受/难治人群的洞察，HP-001 拥有差异化的科学假说与定位。候选分子已完成抗体发现、人源化改造及体内外活性评价，正在推进临床前候选 (PCC) 阶段后续工作。",
+      "highlightsTitle": "管线亮点",
+      "highlights": [
+        "靶向新型免疫抑制通路的人源化单克隆抗体",
+        "设计用于与 PD-1 抑制剂联用，针对 PD-1i 耐受/难治实体瘤人群",
+        "抗体发现、人源化与体内外药效评价已完成",
+        "差异化的科学假说与定位"
+      ],
+      "ctaText": "通过 BD 了解更多信息"
+    },
     "hp002": {
       "code": "HP-002",
       "stage": "临床前",
+      "ficLabel": "具备首创类潜力",
       "title": "PRAME TCR 平台：双重模态治疗与诊断",
       "facts": [
         "靶点：PRAME₄₂₅₋₄₃₃/HLA-A*02:01",
@@ -316,11 +327,11 @@
       "facts": [
         "靶点：ALPP / ALPPL2",
         "形式：抗体偶联药物 (ADC)",
-        "Payload: MMAE (DAR ≈ 4)",
+        "平台：覆盖 ADC 与双特异性 T 细胞衔接器 (TCE) 模态",
         "先导分子：HY-X7514"
       ],
-      "title": "靶向 ALPP/ALPPL2 的新型抗体偶联药物（ADC）",
-      "desc": "HP-004 是同时靶向 ALPP 与 ALPPL2 的新型抗体偶联药物（ADC）—— ALPP/ALPPL2 是在卵巢癌、子宫内膜癌、胃癌、非小细胞肺癌等实体瘤中高表达而正常组织表达受限的碱性磷酸酶亚型。HP-004 特异性结合 ALPP/ALPPL2，与同家族 ALPI、ALPL 无交叉反应，最大限度降低脱靶毒性。先导候选分子 HY-X7514 与 MMAE 通过定点偶联，平均 DAR 约为 4。",
+      "title": "靶向 ALPP/ALPPL2 的双模态平台（ADC + TCE）",
+      "desc": "HP-004 是一项覆盖抗体偶联药物 (ADC) 与双特异性 T 细胞衔接器 (TCE) 两种模态的平台，靶向 ALPP 与 ALPPL2 —— 这两个碱性磷酸酶亚型在卵巢癌、子宫内膜癌、胃癌、非小细胞肺癌等实体瘤中高表达，正常组织表达受限。HP-004 抗体特异性结合 ALPP/ALPPL2，与同家族 ALPI、ALPL 无交叉反应，最大限度降低脱靶毒性。先导候选分子：HY-X7514（详细数据已在 AACR 2026 上发表）。",
       "highlights": [
         "在 ALPP/ALPPL2 高表达肿瘤细胞中 IC₅₀ 约 248 pM",
         "内化效率优于参考抗体（Seagen）",
@@ -333,28 +344,48 @@
     },
     "ip": {
       "title": "知识产权",
-      "desc": "赫匹欧斯已在中国和美国布局多项专利，覆盖核心管线和平台技术。详细知识产权信息可通过 BD 联系获取。"
+      "desc": "赫匹欧斯已申请多项发明专利（中国 + 美国），覆盖核心管线及平台技术。详细知识产权信息可通过 BD 联系获取。"
     }
   },
   "publications": {
     "pageTitle": "出版物与海报",
     "pageSubtitle": "我们科研进展的同行展示。",
-    "poster": {
-      "venue": "AACR",
-      "meeting": "2026 年年会",
-      "number": "海报 #6776",
-      "type": "会议海报",
-      "title": "HP-004：靶向碱性磷酸酶 ALPP 与 ALPPL2 的新型抗体偶联药物（ADC），用于实体瘤治疗",
-      "authors": "Xiao Liang, Yajuan Xue, Yujun Huang",
-      "abstract": "ALPP 和 ALPPL2 在卵巢癌、子宫内膜癌、胃癌和非小细胞肺癌等多种实体瘤中高表达，正常组织表达高度受限。HP-004 是同时靶向 ALPP/ALPPL2 的新型 ADC，与 MMAE 偶联（DAR ≈ 4），具有高选择性与高效内化能力，IC₅₀ 约 248 pM。在 NCI-H1651 异种移植瘤模型中，HP-004 在 3 mg/kg（每周两次 × 2）剂量下实现近完全肿瘤消退（8 只小鼠中 6 只完全消退）。",
-      "tags": [
-        "ADC",
-        "ALPP/ALPPL2",
-        "实体瘤"
-      ],
-      "downloadBtn": "下载 PDF",
-      "viewPipelineBtn": "查看管线"
-    },
+    "downloadBtn": "下载 PDF",
+    "viewPipelineBtn": "查看管线",
+    "posters": [
+      {
+        "venue": "AACR",
+        "meeting": "2026 年年会",
+        "number": "海报 #7193",
+        "type": "会议海报",
+        "title": "利用靶向肿瘤胞内抗原 PRAME 的可溶性 T 细胞受体（TCR）开发用于 PRAME 阳性肿瘤的治疗与放射性诊断药物",
+        "authors": "Xiao Liang, Yajuan Xue, Yujun Huang",
+        "abstract": "我们建立了专有的 TCR 发现平台，能够在无需亲和力增强的前提下，快速鉴定 PRAME₄₂₅₋₄₃₃/HLA-A*02:01 特异性的天然 TCR。先导分子 HP-002 (KD = 1.08 × 10⁻⁷ M) 展示了双重模态潜力：用于治疗的 TCR-CD3 双特异性 T 细胞衔接器，以及用于 SPECT/CT 诊断的 ¹²⁵I 标记放射性示踪剂。¹²⁵I-PR2-Fc-LALAPG 在 Hs695T 异种移植瘤模型中展示了抗原依赖性肿瘤富集。",
+        "tags": [
+          "TCR 治疗",
+          "SPECT/CT 成像",
+          "PRAME"
+        ],
+        "pdfHref": "assets/posters/Hepius_AACR2026_Poster_7193_PRAME-TCR.pdf",
+        "pipelineHref": "pipeline.html#hp-002"
+      },
+      {
+        "venue": "AACR",
+        "meeting": "2026 年年会",
+        "number": "海报 #6776",
+        "type": "会议海报",
+        "title": "HP-004：靶向碱性磷酸酶 ALPP 与 ALPPL2 的新型抗体偶联药物（ADC），用于实体瘤治疗",
+        "authors": "Xiao Liang, Yajuan Xue, Yujun Huang",
+        "abstract": "ALPP 和 ALPPL2 在卵巢癌、子宫内膜癌、胃癌和非小细胞肺癌等多种实体瘤中高表达，正常组织表达高度受限。HP-004 是同时靶向 ALPP/ALPPL2 的新型 ADC，与 MMAE 偶联（DAR ≈ 4），具有高选择性与高效内化能力，IC₅₀ 约 248 pM。在 NCI-H1651 异种移植瘤模型中，HP-004 在 3 mg/kg（每周两次 × 2）剂量下实现近完全肿瘤消退（8 只小鼠中 6 只完全消退）。",
+        "tags": [
+          "ADC",
+          "ALPP/ALPPL2",
+          "实体瘤"
+        ],
+        "pdfHref": "assets/posters/Hepius_AACR2026_Poster_6776_HP-004-ADC.pdf",
+        "pipelineHref": "pipeline.html#hp-004"
+      }
+    ],
     "comingSoon": "更多出版物和学术展示即将发布。"
   },
   "contact": {
@@ -391,7 +422,7 @@
     "contactHeading": "联系方式",
     "bdEmail": "BD@hepiustherapeutics.com",
     "academicEmail": "yhuang@hepiustherapeutics.com",
-    "copyright": "© 2025 Hepius Therapeutics. 保留所有权利。"
+    "copyright": "© 2025 苏州赫匹欧斯生物科技有限公司. 保留所有权利。"
   },
   "news": {
     "placeholder": "我们将在此分享公司动态、合作进展与科研亮点，敬请期待。",
