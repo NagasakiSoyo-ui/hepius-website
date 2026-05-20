@@ -116,7 +116,7 @@ Email links use `data-i18n-mailto` for dynamic `mailto:` hrefs.
 
 - [x] 苏州办公地址 — 苏州工业园区新平街388号23幢5层04室5419F
 - [ ] **San Diego 办公精确地址** — 目前占位 "San Diego, California, USA"，标注 "Detailed address available upon request"
-- [x] BD 商务邮箱 — BD@hepiustherapeutics.com
+- [x] BD 商务邮箱 — ALI@hepiustherapeutics.com
 - [x] 学术联系邮箱 — yhuang@hepiustherapeutics.com
 - [ ] **微信公众号二维码** — 需提供图片文件，放到 assets/images/ 下，并在 contact.html 中引用
 - [ ] **团队成员证件照** — 除黄宇君外，以下成员待补充照片：

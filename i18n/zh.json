@@ -12,7 +12,7 @@
     "hero": {
       "title": "赫匹欧斯生物科技",
       "subtitle": "下一代精准肿瘤免疫治疗",
-      "tagline": "以病人为中心的反向转化医学平台，开发差异化的下一代肿瘤免疫治疗生物药，为耐药患者提供新选择。",
+      "tagline": "以病人为中心的反向转化医学平台，开发差异化的下一代肿瘤免疫治疗生物药。",
       "cta1": "了解管线",
       "cta2": "联系我们"
     },
@@ -24,7 +24,7 @@
           "desc": "从临床样本出发，以病人生物信息数据驱动靶点识别、药物筛选与适应症选择，构建从临床到实验室再到临床的闭环。"
         },
         {
-          "title": "TCR 发现与工程平台",
+          "title": "TCR 发现、筛选、工程平台",
           "desc": "4-8 周高效 TCR 发现流程，结合天然 TCR 可溶性表达与专利亲和力筛选平台，实现胞内抗原靶向。"
         },
         {
@@ -39,15 +39,15 @@
         {
           "target": "免疫抑制通路 · PD-1i 联用",
           "name": "HP-001",
-          "title": "人源化单克隆抗体",
+          "title": "免疫检查点抗体",
           "indication": "实体瘤，PD-1i 联用",
           "stage": "临床前",
           "link": "了解详情 →"
         },
         {
-          "target": "PRAME/HLA-A*02:01",
+          "target": "",
           "name": "HP-002",
-          "title": "TCR-CD3 双抗 / TCR-核素偶联",
+          "title": "肿瘤细胞包内抗原",
           "indication": "PRAME 阳性实体瘤",
           "stage": "临床前",
           "link": "了解详情 →"
@@ -70,24 +70,19 @@
     "overview": {
       "legalEntityLabel": "运营主体",
       "legalEntity": "苏州赫匹欧斯生物科技有限公司",
+      "legalEntityAddress": "中国江苏省苏州市苏州工业园区新平街 388 号 23 幢 5 层 04 室 5419F",
       "foundedLabel": "成立时间",
       "founded": "2023 年 6 月成立",
       "locationsLabel": "所在地",
       "locations": "中国苏州 &amp; 美国圣地亚哥",
       "approachLabel": "我们的方法",
       "approachTitle": "协作驱动的开发模式",
-      "approachDesc": "我们采用自研与合作并行的双引擎模式：自主推进核心管线，同时与全球药企建立战略合作。在合适的时间点，我们会就特定项目进行海外授权交易，让最有效的药物以最快速度抵达患者。"
+      "approachDesc": "我们采用自研与合作并行的双引擎模式：自主推进核心管线，同时与全球药企建立战略合作。"
     },
     "founder": {
       "role": "创始人、总裁兼首席科学官",
       "name": "黄宇君 博士",
       "tagline": "肿瘤免疫学专家，20 年免疫学领域经验",
-      "bio": [
-        "Plexium，转化医学负责人",
-        "OncoMed，转化医学总监（anti-TIGIT etigilimab 项目）",
-        "AbbVie，免疫肿瘤学首席科学家（ibrutinib 项目）",
-        "La Jolla 免疫研究所，博士后"
-      ],
       "education": "复旦大学 MD &middot; 芝加哥 Loyola 大学肿瘤免疫学博士"
     },
     "whyHepius": {
@@ -99,15 +94,7 @@
         },
         {
           "title": "以病人为中心的反向转化平台",
-          "desc": "从 PD-1i 耐受/难治病人样本出发，识别耐药机制并验证靶点，确保候选分子在最可能响应的人群中具有临床意义。"
-        },
-        {
-          "title": "覆盖多种治疗形式的差异化平台",
-          "desc": "内部具备抗体、TCR-CD3 双特异性抗体、TCR 核素偶联药物 (RDC) 与抗体偶联药物 (ADC) 全套开发能力，为不同靶点匹配最优药物形式。"
-        },
-        {
-          "title": "多管线并行推进",
-          "desc": "HP-001、HP-002、HP-004 三条管线同步推进，已申请多项发明专利（中国 + 美国），覆盖核心管线及平台技术。"
+          "desc": "依托丰富的临床病人样本资源，直接从真实患者生物学出发识别新靶点并验证候选分子，确保候选药物在最可能响应的人群中具有临床意义。"
         }
       ]
     }
@@ -115,36 +102,16 @@
   "science": {
     "pageTitle": "科学与技术",
     "pageSubtitle": "以病人为中心的反向转化平台，由专有的 TCR 发现与工程技术驱动。",
-    "platform": {
-      "title": "反向转化医学平台",
-      "desc": "赫匹欧斯反向转化平台整合临床数据分析与病人样本检测。两大支柱协同工作，识别治疗靶点并针对最可能响应的人群筛选候选药物。",
-      "pillar1": {
-        "title": "临床和 Biomarker 生物信息指导的靶点选择",
-        "bullets": [
-          "与国内顶级临床机构合作，识别并引进新靶点",
-          "分析接受过免疫治疗的患者数据，识别 PD-1i 耐药/难治机制",
-          "Biomarker 驱动的肿瘤适应症选择和靶向人群挑选"
-        ]
-      },
-      "pillar2": {
-        "title": "肿瘤病人细胞组织库为基础的药物筛选",
-        "bullets": [
-          "病人来源 PBMC、DTC 及 TIL 库",
-          "内部多色流式免疫分析",
-          "多平台交叉验证"
-        ]
-      }
-    },
     "tech": {
       "title": "专有技术",
       "cards": [
         {
-          "title": "4-8 周 TCR 发现流程",
+          "title": "4-8 周快速有效发现流程",
           "desc": "通过四聚体染色、流式分选和 10X 单细胞测序，4-8 周内从 PBMC/TIL 鉴定抗原特异性的天然 TCR。"
         },
         {
-          "title": "天然 TCR 可溶性表达",
-          "desc": "通过恒定区突变与 Fc 融合工程，天然 TCR 表达量可达 93 mg/L，无需亲和力增强。"
+          "title": "成熟 TCR 可溶性表达",
+          "desc": "通过恒定区突变与 Fc 融合工程，成熟 TCR 表达量可达 93 mg/L，无需亲和力增强。"
         },
         {
           "title": "专利 TCR 亲和力筛选平台",
@@ -210,21 +177,21 @@
           "program": "HP-001",
           "target": "暂未披露",
           "indication": "实体瘤（与 PD-1i 联用）",
-          "modality": "人源化单克隆抗体",
+          "modality": "免疫检查点抗体",
           "stage": "临床前",
           "stageIndex": 2
         },
         {
           "program": "HP-002",
-          "target": "PRAME/HLA-A*02:01",
+          "target": "暂未披露",
           "indication": "PRAME 阳性实体瘤",
-          "modality": "TCR-CD3 双抗 / TCR-核素偶联",
+          "modality": "肿瘤细胞包内抗原",
           "stage": "临床前",
           "stageIndex": 2
         },
         {
           "program": "HP-002 (ext)",
-          "target": "MAGE-A4/HLA-A*02:01",
+          "target": "暂未披露",
           "indication": "实体瘤",
           "modality": "同平台延伸",
           "stage": "发现期",
@@ -239,90 +206,6 @@
           "stageIndex": 2
         }
       ]
-    },
-    "tabs": [
-      "HP-001",
-      "HP-002",
-      "HP-004"
-    ],
-    "hp001": {
-      "code": "HP-001",
-      "stage": "临床前",
-      "title": "与 PD-1 抑制剂联用的差异化单抗",
-      "facts": [
-        "形式：人源化单克隆抗体",
-        "靶点：暂未披露",
-        "联用：PD-1 抑制剂",
-        "阶段：临床前候选 (PCC)"
-      ],
-      "desc": "HP-001 是一款针对新型免疫抑制通路的人源化单克隆抗体，旨在与 PD-1 抑制剂联合使用，扩大免疫检查点疗法的获益人群。基于赫匹欧斯反向转化平台对 PD-1i 耐受/难治人群的洞察，HP-001 拥有差异化的科学假说与定位。候选分子已完成抗体发现、人源化改造及体内外活性评价，正在推进临床前候选 (PCC) 阶段后续工作。",
-      "highlightsTitle": "管线亮点",
-      "highlights": [
-        "靶向新型免疫抑制通路的人源化单克隆抗体",
-        "设计用于与 PD-1 抑制剂联用，针对 PD-1i 耐受/难治实体瘤人群",
-        "抗体发现、人源化与体内外药效评价已完成",
-        "差异化的科学假说与定位"
-      ],
-      "ctaText": "通过 BD 了解更多信息"
-    },
-    "hp002": {
-      "code": "HP-002",
-      "stage": "临床前",
-      "ficLabel": "具备首创类潜力",
-      "title": "PRAME TCR 平台：双重模态治疗与诊断",
-      "facts": [
-        "靶点：PRAME₄₂₅₋₄₃₃/HLA-A*02:01",
-        "形式：TCR-CD3 双抗 / TCR-核素偶联",
-        "平台：天然可溶性 TCR，无需亲和力增强"
-      ],
-      "desc": "HP-002 是一种特异性识别 PRAME₄₂₅₋₄₃₃/HLA-A*02:01 复合物的可溶性天然 T 细胞受体。基于赫匹欧斯专有的 TCR 发现与工程平台，HP-002 以两种平行模态开发：用于治疗的 TCR-CD3 双特异性 T 细胞衔接器（TCE），以及用于 SPECT/CT 成像的放射性标记诊断剂。",
-      "affinityTitle": "结合亲和力",
-      "affinityKd": "1.08 × 10⁻⁷",
-      "affinityKdLabel": "平衡解离常数",
-      "affinityKa": "1.65 × 10⁴",
-      "affinityKaLabel": "结合速率",
-      "affinityKdDissoc": "1.79 × 10⁻³",
-      "affinityKdDissocLabel": "解离速率",
-      "affinityUnit": "M",
-      "affinityKaUnit": "M⁻¹s⁻¹",
-      "affinityKdUnit": "s⁻¹",
-      "affinityNote": "表面等离子共振（SPR）测定，针对 PRAME₄₂₅₋₄₃₃/HLA-A*02:01 单体。",
-      "sprCaption": "图：二价 PR2-Fc TCR 与固定化 PRAME₄₂₅₋₄₃₃/HLA-A*02:01 单体的 SPR 结合曲线，8 个浓度梯度（0.78–100 μg/ml）。",
-      "dualTitle": "双重模态策略",
-      "therapyTitle": "治疗 — TCR-CD3 T 细胞衔接器 (TCE)",
-      "therapyDesc": "三种 TCR-CD3 双特异性格式（002BsAb01/02/03），具有不同的 CD3 结合几何和价态。先导候选分子在体外完全激活 T 细胞，并对 PRAME 阳性 Hs695T 肿瘤细胞产生强效抗原特异性杀伤——无需 TCR 亲和力增强。",
-      "diagTitle": "诊断 — 放射性标记 SPECT/CT 成像",
-      "diagDesc": "¹²⁵I 标记的 PR2-Fc-LALAPG 变体在 PRAME 阳性 Hs695T 异种移植瘤模型中展示抗原依赖性肿瘤富集，注射后约 24 小时达到峰值摄取。单链 TCR 变体（scPRC2）在约 4 小时展示更快的肿瘤摄取和快速清除。",
-      "spectCaption": "图 7（AACR 2026 海报 #7193）：¹²⁵I 标记的天然 PRAME 特异性 TCR 在 Hs695T 异种移植瘤模型中展示肿瘤富集。(A) 二价 PR2-Fc-LALAPG 在注射后约 24 小时出现肿瘤峰值富集。(B) 单链 scPRC2 在约 4 小时即出现肿瘤富集峰值，清除较快。红圈标示肿瘤区域。",
-      "extTitle": "平台延伸",
-      "extDesc": "同一 TCR 发现平台已鉴定 MAGE-A4₂₃₀₋₂₃₉/HLA-A*02:01 特异性 TCR（KD = 9.18 × 10⁻⁷ M），将管线扩展至更多 HLA 限制性胞内肿瘤抗原。",
-      "refText": "详细数据在 AACR 2026 年会上展示，海报编号 #7193。",
-      "refDownload": "下载海报 (PDF)"
-    },
-    "hp004": {
-      "code": "HP-004",
-      "stage": "临床前",
-      "facts": [
-        "靶点：ALPP / ALPPL2",
-        "形式：抗体偶联药物 (ADC)",
-        "平台：覆盖 ADC 与双特异性 T 细胞衔接器 (TCE) 模态",
-        "先导分子：HY-X7514"
-      ],
-      "title": "靶向 ALPP/ALPPL2 的双模态平台（ADC + TCE）",
-      "desc": "HP-004 是一项覆盖抗体偶联药物 (ADC) 与双特异性 T 细胞衔接器 (TCE) 两种模态的平台，靶向 ALPP 与 ALPPL2 —— 这两个碱性磷酸酶亚型在卵巢癌、子宫内膜癌、胃癌、非小细胞肺癌等实体瘤中高表达，正常组织表达受限。HP-004 抗体特异性结合 ALPP/ALPPL2，与同家族 ALPI、ALPL 无交叉反应，最大限度降低脱靶毒性。先导候选分子：HY-X7514（详细数据已在 AACR 2026 上发表）。",
-      "highlights": [
-        "在 ALPP/ALPPL2 高表达肿瘤细胞中 IC₅₀ 约 248 pM",
-        "内化效率优于参考抗体（Seagen）",
-        "在 NCI-H1651 异种移植瘤模型中以 3 mg/kg（每周两次 × 2）剂量实现近完全肿瘤消退",
-        "8 只受试小鼠中 6 只完全肿瘤消退",
-        "在 ALPP/ALPPL2 阳性 / 阴性混合培养模型中显示旁观者杀伤活性"
-      ],
-      "refText": "详细数据在 AACR 2026 年会上展示，海报编号 #6776。",
-      "refDownload": "下载海报 (PDF)"
-    },
-    "ip": {
-      "title": "知识产权",
-      "desc": "赫匹欧斯已申请多项发明专利（中国 + 美国），覆盖核心管线及平台技术。详细知识产权信息可通过 BD 联系获取。"
     }
   },
   "publications": {
@@ -372,7 +255,7 @@
     "inquiriesTitle": "咨询通道",
     "bd": {
       "label": "商务合作",
-      "email": "BD@hepiustherapeutics.com",
+      "email": "ALI@hepiustherapeutics.com",
       "desc": "合作开发、授权交易、企业战略。"
     },
     "academic": {
@@ -395,10 +278,10 @@
     "quote": "我们欢迎与患者权益倡导者、临床研究者、行业合作伙伴及投资人对话——与我们共同致力于解决肿瘤免疫学领域的未满足临床需求。"
   },
   "footer": {
-    "tagline": "以病人为中心的反向转化医学平台，开发差异化的下一代精准肿瘤免疫治疗药物，为耐药患者提供新选择。",
+    "tagline": "以病人为中心的反向转化医学平台，开发差异化的下一代精准肿瘤免疫治疗药物。",
     "quickLinks": "快速链接",
     "contactHeading": "联系方式",
-    "bdEmail": "BD@hepiustherapeutics.com",
+    "bdEmail": "ALI@hepiustherapeutics.com",
     "academicEmail": "yhuang@hepiustherapeutics.com",
     "copyright": "© 2025 苏州赫匹欧斯生物科技有限公司. 保留所有权利。"
   },
@@ -407,7 +290,7 @@
     "backHome": "返回首页"
   },
   "careers": {
-    "placeholder": "我们正在成长。职位招聘信息将在此发布。如有意向，欢迎邮件联系 BD@hepiustherapeutics.com。",
+    "placeholder": "我们正在成长。职位招聘信息将在此发布。如有意向，欢迎邮件联系 ALI@hepiustherapeutics.com。",
     "backHome": "返回首页"
   },
   "error": {
