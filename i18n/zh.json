@@ -220,7 +220,6 @@
         "number": "海报 #7193",
         "type": "会议海报",
         "title": "利用靶向肿瘤胞内抗原 PRAME 的可溶性 T 细胞受体（TCR）开发用于 PRAME 阳性肿瘤的治疗与放射性诊断药物",
-        "authors": "Xiao Liang, Yajuan Xue, Yujun Huang",
         "abstract": "我们建立了专有的 TCR 发现平台，能够在无需亲和力增强的前提下，快速鉴定 PRAME₄₂₅₋₄₃₃/HLA-A*02:01 特异性的天然 TCR。先导分子 HP-002 (KD = 1.08 × 10⁻⁷ M) 展示了双重模态潜力：用于治疗的 TCR-CD3 双特异性 T 细胞衔接器，以及用于 SPECT/CT 诊断的 ¹²⁵I 标记放射性示踪剂。¹²⁵I-PR2-Fc-LALAPG 在 Hs695T 异种移植瘤模型中展示了抗原依赖性肿瘤富集。",
         "tags": [
           "TCR 治疗",
@@ -236,7 +235,6 @@
         "number": "海报 #6776",
         "type": "会议海报",
         "title": "HP-004：靶向碱性磷酸酶 ALPP 与 ALPPL2 的新型抗体偶联药物（ADC），用于实体瘤治疗",
-        "authors": "Xiao Liang, Yajuan Xue, Yujun Huang",
         "abstract": "ALPP 和 ALPPL2 在卵巢癌、子宫内膜癌、胃癌和非小细胞肺癌等多种实体瘤中高表达，正常组织表达高度受限。HP-004 是同时靶向 ALPP/ALPPL2 的新型 ADC，与 MMAE 偶联（DAR ≈ 4），具有高选择性与高效内化能力，IC₅₀ 约 248 pM。在 NCI-H1651 异种移植瘤模型中，HP-004 在 3 mg/kg（每周两次 × 2）剂量下实现近完全肿瘤消退（8 只小鼠中 6 只完全消退）。",
         "tags": [
           "ADC",

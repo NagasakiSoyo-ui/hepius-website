@@ -220,7 +220,6 @@
         "number": "Poster #7193",
         "type": "Conference Poster",
         "title": "Utilize a Soluble T-cell Receptor (TCR) Targeting Tumor Intracellular Antigen PRAME to Develop Therapeutic and Radioactive Diagnostic Agents for PRAME-positive Tumors",
-        "authors": "Xiao Liang, Yajuan Xue, Yujun Huang",
         "abstract": "We established a proprietary TCR discovery platform for rapid identification of PRAME₄₂₅₋₄₃₃/HLA-A*02:01-specific TCRs without affinity enhancement. The lead candidate HP-002 (KD = 1.08 × 10⁻⁷ M) demonstrates dual-modality potential: TCR-CD3 bispecific T-cell engagers for therapy and ¹²⁵I-labeled radiotracers for SPECT/CT diagnostics. ¹²⁵I-PR2-Fc-LALAPG showed antigen-dependent tumor accumulation in Hs695T xenograft models.",
         "tags": [
           "TCR Therapy",
@@ -236,7 +235,6 @@
         "number": "Poster #6776",
         "type": "Conference Poster",
         "title": "HP004, a Novel Antibody-Drug Conjugate Targeting Alkaline Phosphatases ALPP and ALPPL2 in Solid Tumors",
-        "authors": "Xiao Liang, Yajuan Xue, Yujun Huang",
         "abstract": "ALPP and ALPPL2 are highly expressed in ovarian, endometrial, gastric, and non-small cell lung cancers, with restricted expression in normal tissues. HP-004 is a novel ADC dual-targeting ALPP/ALPPL2, conjugated with MMAE at an average DAR of ~4, demonstrating high selectivity and enhanced internalization with an IC₅₀ of ~248 pM. In the NCI-H1651 xenograft lung cancer model, HP-004 achieved near-complete tumor regression at 3 mg/kg (BiW × 2), with complete tumor regression in 6 of 8 mice.",
         "tags": [
           "ADC",
