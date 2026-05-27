@@ -183,7 +183,7 @@
         },
         {
           "program": "HP-002",
-          "target": "Undisclosed",
+          "target": "PRAME",
           "indication": "PRAME-positive solid tumors",
           "modality": "Tumor Intracellular Antigen",
           "stage": "Preclinical",
