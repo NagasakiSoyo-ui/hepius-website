@@ -19,7 +19,7 @@
 
   function applyTranslations() {
     var xhr = new XMLHttpRequest();
-    xhr.open('GET', 'i18n/' + currentLang + '.json', true);
+    xhr.open('GET', 'i18n/' + currentLang + '.json?v=' + Date.now(), true);
     xhr.onload = function () {
       if (xhr.status !== 200) return;
       var data = JSON.parse(xhr.responseText);
