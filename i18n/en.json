@@ -107,7 +107,7 @@
       "cards": [
         {
           "title": "4–8-Week Rapid Discovery Pipeline",
-          "desc": "Identification of antigen-specific native TCRs from PBMCs/TILs within four to eight weeks via tetramer staining, FACS sorting, and 10X single-cell sequencing."
+          "desc": "Cloning of antigen-specific native TCRs from PBMCs/TILs within four to eight weeks via tetramer staining, FACS sorting, and 10X single-cell sequencing."
         },
         {
           "title": "Mature Soluble TCR Expression",
@@ -119,7 +119,7 @@
         },
         {
           "title": "Multi-Modal TCR Therapeutics",
-          "desc": "Spanning antibodies, TCR-CD3 bispecific antibodies, ADCs, and radionuclide-conjugated drugs (RDCs) — matching the optimal drug format to each target and indication."
+          "desc": "Spanning antibodies, TCR-CD3 bispecific antibodies, ADCs, and radionuclide-conjugated drugs (RDCs) — matching the optimal drug format to each target and indication, supporting both therapeutic and radionuclide companion-diagnostic (Companion Diagnostics) applications."
         }
       ]
     },
