@@ -115,11 +115,11 @@
         },
         {
           "title": "Cell-Based TCR Affinity Screening",
-          "desc": "Proprietary THP-1 cell-based screening method enables affinity characterization of soluble native TCRs — solving a long-standing challenge in preclinical TCR research."
+          "desc": "Proprietary cell-based screening method enables affinity characterization of soluble native TCRs — solving a long-standing challenge in preclinical TCR research."
         },
         {
-          "title": "Multi-Format TCR Therapeutics",
-          "desc": "Versatile molecular formats — monovalent scTCR, bivalent TCR-Fc, and TCR-CD3 T-cell engagers — supporting both therapeutic and radiodiagnostic applications."
+          "title": "Multi-Modal TCR Therapeutics",
+          "desc": "Spanning antibodies, TCR-CD3 bispecific antibodies, ADCs, and radionuclide-conjugated drugs (RDCs) — matching the optimal drug format to each target and indication."
         }
       ]
     },
