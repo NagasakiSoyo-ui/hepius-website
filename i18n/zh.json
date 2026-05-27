@@ -47,7 +47,7 @@
         {
           "target": "",
           "name": "HP-002",
-          "title": "肿瘤细胞包内抗原",
+          "title": "肿瘤细胞胞内抗原",
           "indication": "PRAME 阳性实体瘤",
           "stage": "临床前",
           "link": "了解详情 →"
@@ -185,7 +185,7 @@
           "program": "HP-002",
           "target": "暂未披露",
           "indication": "PRAME 阳性实体瘤",
-          "modality": "肿瘤细胞包内抗原",
+          "modality": "肿瘤细胞胞内抗原",
           "stage": "临床前",
           "stageIndex": 2
         },
@@ -253,7 +253,7 @@
     "inquiriesTitle": "咨询通道",
     "bd": {
       "label": "商务合作",
-      "email": "ALI@hepiustherapeutics.com",
+      "email": "ALEXLI@hepiustherapeutics.com",
       "desc": "合作开发、授权交易、企业战略。"
     },
     "academic": {
@@ -279,7 +279,7 @@
     "tagline": "以病人为中心的反向转化医学平台，开发差异化的下一代精准肿瘤免疫治疗药物。",
     "quickLinks": "快速链接",
     "contactHeading": "联系方式",
-    "bdEmail": "ALI@hepiustherapeutics.com",
+    "bdEmail": "ALEXLI@hepiustherapeutics.com",
     "academicEmail": "yhuang@hepiustherapeutics.com",
     "copyright": "© 2025 苏州赫匹欧斯生物科技有限公司. 保留所有权利。"
   },
@@ -288,7 +288,7 @@
     "backHome": "返回首页"
   },
   "careers": {
-    "placeholder": "我们正在成长。职位招聘信息将在此发布。如有意向，欢迎邮件联系 ALI@hepiustherapeutics.com。",
+    "placeholder": "我们正在成长。职位招聘信息将在此发布。如有意向，欢迎邮件联系 ALEXLI@hepiustherapeutics.com。",
     "backHome": "返回首页"
   },
   "error": {
